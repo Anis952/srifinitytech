@@ -12,14 +12,14 @@ export default function Welcome6() {
                         <div className="col-lg-6">
                             <div className="header5-textareah5" data-aos="fade-right" data-aos-duration={1000}>
                                 <span className="trusts font-16 lineh-16 font-nunito weight-600 color-h5 d-inline-block">Trusted
-                                    Financial Consulting Services</span>
-                                <h1 className="font-lora font-60 lineh-64 weight-600 colorwel margin-b20" data-aos="fade-right" data-aos-duration={1200}>Your Best Finance Consulting Partners</h1>
+                                    Business Technology Consulting Services</span>
+                                <h1 className="font-lora font-60 lineh-64 weight-600 colorwel margin-b20" data-aos="fade-right" data-aos-duration={1200}>Srifinity Tech: Your Business Technology Consulting Partners</h1>
                                 <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ">Our consultants bring diverse
-                                    financial backgrounds, ensuring seasoned <br /> and practical advice. We develop solutions
-                                    that align with your unique.</p>
+                                    Technology backgrounds, ensuring seasoned <br /> and practical advice. We develop solutions
+                                    that align with your unique business requirement.</p>
                                 <div className="h0mapagesixbtnall" data-aos="fade-up" data-aos-duration={1000}>
                                     <Link href="/contact1" className="font-nunito font-16 lineh-16 weight-700 color d-inline-block home5btn7 ts">Get
-                                        Financial Advice</Link>
+                                          Business Technology Advice</Link>
                                     <div className="all-phoneflex" data-aos="fade-up" data-aos-duration={1400}>
                                         <div className="phonwiicone">
                                             <Link href="/tel:123-456-7890"><img src="/assets/images/icons/phoneiicon1.png" alt="" className="ts" /></Link>
@@ -27,7 +27,7 @@ export default function Welcome6() {
                                         <div className="phoneiicona">
                                             <span className="font-nunito font-16 weight-500 color-nuni margin-b8 d-inline-block lineh-16">Free
                                                 Consultation</span> <br />
-                                            <Link href="/tel:123-456-7890" className="font-18 weight-700 colorwel font-nunito">123-456-7890</Link>
+                                            <Link href="/tel:+977-9767584593" className="font-18 weight-700 colorwel font-nunito">+977-9767584593</Link>
                                         </div>
                                     </div>
                                 </div>

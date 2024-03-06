@@ -12,8 +12,8 @@ export default function Service7() {
                             <div className="servicetext text-center margin-b60">
                                 <span className="trusts font-16 lineh-16 font-nunito weight-600 color-h5 d-inline-block">Practice
                                     Areas</span>
-                                <h1 className="font-lora font-44 lineh-52 weight-600 colorwel margin-b20">Elevate your finances with
-                                    expert financial consulting</h1>
+                                <h1 className="font-lora font-44 lineh-52 weight-600 colorwel margin-b20">Elevate your business growth with
+                                    expert consultants in Microsoft business applications.</h1>
                             </div>
                         </div>
                     </div>
@@ -24,11 +24,11 @@ export default function Service7() {
                                     <img src="/assets/images/icons/document5.svg" alt="" />
                                 </div>
                                 <div className="dosuments6">
-                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Financial
-                                        Planning</Link>
-                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Maximizing your
-                                        returns while managing risks. We develop investment portfolios aligned with your risk
-                                        tolerance and long-term objectives of experts identify strategies.</p>
+                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Strategic Growth Unleashed: 
+                                    The Role of Expert Technology Consultants</Link>
+                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Explore how partnering with seasoned technology
+                                     consultants can propel your business to new heights. Learn about the key strategies
+                                     and insights they bring to the table to optimize your growth journey.</p>
                                     <Link href="/servicemiddle" className="font-nunito font-16 weight-700 colorwel lineh-16 d-inline-block ts">Learn More
                                         <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                 </div>
@@ -40,11 +40,11 @@ export default function Service7() {
                                     <img src="/assets/images/icons/calculation3.png" alt="" />
                                 </div>
                                 <div className="dosuments6">
-                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Business
-                                        Growth Plan</Link>
-                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Maximizing your
-                                        returns while managing risks. We develop investment portfolios aligned with your risk
-                                        tolerance and long-term objectives of experts identify strategies.</p>
+                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Microsoft Magic: 
+                                    Transforming Business Landscapes with Smart Applications</Link>
+                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Dive into the world of Microsoft business applications
+                                     and discover how they serve as catalysts for business growth. Uncover the unique features
+                                     and functionalities that can revolutionize your operational efficiency.</p>
                                     <Link href="/servicemiddle" className="font-nunito font-16 weight-700 colorwel lineh-16 d-inline-block ts">Learn More
                                         <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                 </div>
@@ -56,11 +56,11 @@ export default function Service7() {
                                     <img src="/assets/images/icons/analycis1.png" alt="" />
                                 </div>
                                 <div className="dosuments6">
-                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Best
-                                        Marketing Analysis</Link>
-                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Maximizing your
-                                        returns while managing risks. We develop investment portfolios aligned with your risk
-                                        tolerance and long-term objectives of experts identify strategies.</p>
+                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Navigating Growth Challenges: 
+                                    A Guide by Technology Consulting Experts</Link>
+                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Gain valuable insights into overcoming growth
+                                     obstacles with the guidance of expert technology consultants. From scalability issues to technological bottlenecks,
+                                     explore solutions that pave the way for sustained business expansion.</p>
                                     <Link href="/servicemiddle" className="font-nunito font-16 weight-700 colorwel lineh-16 d-inline-block ts">Learn More
                                         <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                 </div>
@@ -72,11 +72,11 @@ export default function Service7() {
                                     <img src="/assets/images/icons/managment1.png" alt="" />
                                 </div>
                                 <div className="dosuments6">
-                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Tax
-                                        Management Plan</Link>
-                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Maximizing your
-                                        returns while managing risks. We develop investment portfolios aligned with your risk
-                                        tolerance and long-term objectives of experts identify strategies.</p>
+                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Maximizing ROI: 
+                                    Leveraging Microsoft Solutions for Business Success</Link>
+                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Delve into the specifics of Microsoft business 
+                                    applications and understand how they contribute to maximizing your return on investment. 
+                                    Uncover the potential of these solutions in streamlining processes and boosting overall efficiency.</p>
                                     <Link href="/servicemiddle" className="font-nunito font-16 weight-700 colorwel lineh-16 d-inline-block ts">Learn More
                                         <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                 </div>
@@ -88,11 +88,11 @@ export default function Service7() {
                                     <img src="/assets/images/icons/estata1.png" alt="" />
                                 </div>
                                 <div className="dosuments6">
-                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Estate
-                                        Planning</Link>
-                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Maximizing your
-                                        returns while managing risks. We develop investment portfolios aligned with your risk
-                                        tolerance and long-term objectives of experts identify strategies.</p>
+                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Future-Proofing Your Business: 
+                                    A Technology Consultant's Approach</Link>
+                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Anticipate and prepare for the future with 
+                                    the expertise of technology consultants. Learn how their insights and Microsoft applications
+                                     can future-proof your business against evolving industry trends and technological advancements.</p>
                                     <Link href="/servicemiddle" className="font-nunito font-16 weight-700 colorwel lineh-16 d-inline-block ts">Learn More
                                         <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                 </div>
@@ -104,11 +104,11 @@ export default function Service7() {
                                     <img src="/assets/images/icons/managment2.png" alt="" />
                                 </div>
                                 <div className="dosuments6">
-                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Investment
-                                        Management</Link>
-                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Maximizing your
-                                        returns while managing risks. We develop investment portfolios aligned with your risk
-                                        tolerance and long-term objectives of experts identify strategies.</p>
+                                    <Link href="/servicemiddle" className="font-lora font-24 weight-600 colorwel lineh-26 margin-b14 d-inline-block ts">Data-Driven Decisions: 
+                                    The Impact of Expert Technology Consultants in Microsoft Environments</Link>
+                                    <p className="font-nunito font-16 lineh-26 weight-500 color-nuni ts margin-b20">Explore the pivotal role technology consultants
+                                     play in helping businesses leverage Microsoft applications for data-driven decision-making. Uncover the strategies
+                                      and tools that empower organizations to harness the full potential of their data, driving informed choices and strategic growth.</p>
                                     <Link href="/servicemiddle" className="font-nunito font-16 weight-700 colorwel lineh-16 d-inline-block ts">Learn More
                                         <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                 </div>

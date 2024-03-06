@@ -12,16 +12,17 @@ export default function Footer6() {
                                     <div className="col-lg-3">
                                         <div className="footer-3logo">
                                             <img src="/assets/images/logo/logo9.png" alt="" />
-                                            <p className="font-nunito font-16 lineh-26 color-nuni margin-t margin-b24">Include any
-                                                additional information that may be relevant or helpful for visitors, such as
-                                                FAQs, pricing options, or service packages. Provide contact details.</p>
+                                            <p className="font-nunito font-16 lineh-26 color-nuni margin-t margin-b24">Elevate your business with our tailored technology 
+                                            solutions. Explore answers to frequently asked questions, discover flexible pricing options, and choose from service packages 
+                                            designed to meet your unique needs. For personalized consultations or inquiries, contact our team at admin@srifinity.com or 
+                                            +977-9767584593. Your success is our expertise, and we're here to empower your business journey.</p>
                                         </div>
                                         <div className="social3-links-area list5area">
                                             <ul>
-                                                <li><Link href="#"><i className="fa-brands fa-facebook-f" /></Link></li>
-                                                <li><Link href="#" className="ml1"><i className="fa-brands fa-google-plus-g" /></Link></li>
-                                                <li><Link href="#" className="ml1"><i className="fa-brands fa-instagram" /></Link></li>
-                                                <li><Link href="#" className="ml1"><i className="fa-brands fa-youtube" /></Link></li>
+                                                <li><Link href="https://www.facebook.com/profile.php?id=61556303953641"><i className="fa-brands fa-facebook-f" /></Link></li>
+                                                <li><Link href="https://www.google.com/search?q=srifinity+tech&sca_esv=54bdbdfc1cb11477&sxsrf=ACQVn0_ec6uxG7EfI1WBt95uQgjGGGfnjg%3A1709451774802&source=hp&ei=_inkZYa3LtSz4-EP87WRgA8&iflsig=ANes7DEAAAAAZeQ4DvNkHaHe2ZTWnZHXwnSS_zkHYFPI&oq=sri&gs_lp=Egdnd3Mtd2l6IgNzcmkqAggAMgQQIxgnMgQQIxgnMggQLhiABBixAzIFEC4YgAQyBRAuGIAEMgUQABiABDIIEC4YgAQYsQMyBRAAGIAEMgUQLhiABDIFEAAYgARIyg1QAFjZAnAAeACQAQCYAdIBoAHzA6oBBTAuMi4xuAEDyAEA-AEBmAIDoAL-A8ICChAjGIAEGIoFGCfCAggQABiABBixA8ICCxAAGIAEGIoFGLEDmAMAkgcFMC4yLjE&sclient=gws-wiz" className="ml1"><i className="fa-brands fa-google-plus-g" /></Link></li>
+                                                <li><Link href="https://www.instagram.com/shree.infinity/" className="ml1"><i className="fa-brands fa-instagram" /></Link></li>
+                                                <li><Link href="https://www.linkedin.com/company/99180974" className="ml1"><i className="fa-brands fa-youtube" /></Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -51,20 +52,19 @@ export default function Footer6() {
                                                 <div className="image5">
                                                     <img src="/assets/images/icons/email5.png" alt="" />
                                                 </div>
-                                                <Link href="/mailto:info@taxvice.com" className="font-nunito font-16 lineh-24 weight-600 color-nuni">info@taxvice.com</Link>
+                                                <Link href="/mailto:info@taxvice.com" className="font-nunito font-16 lineh-24 weight-600 color-nuni">admin@srifinity.com</Link>
                                             </div>
                                             <div className="location-icon4 margin-t">
                                                 <div className="imgge5">
                                                     <img src="/assets/images/icons/location4.svg" alt="" />
                                                 </div>
-                                                <Link href="#" className="font-nunito font-16 lineh-24 weight-600 color-nuni">8708
-                                                    Technology Forest <br /> Pl Suite 125 -G, The <br /> Woodlands, TX 77381</Link>
+                                                <Link href="#" className="font-nunito font-16 lineh-24 weight-600 color-nuni"> Kageshwori, Manohara - 09 <br /> Kathmandu<br /> Bagmati 44600, Nepal</Link>
                                             </div>
                                             <div className="location-icon4 margin-t">
                                                 <div className="image5">
                                                     <img src="/assets/images/icons/phone7.svg" alt="" />
                                                 </div>
-                                                <Link href="/tel:123-456-7890" className="font-nunito font-16 lineh-24 weight-600 color-nuni">123-456-7890</Link>
+                                                <Link href="/tel:123-456-7890" className="font-nunito font-16 lineh-24 weight-600 color-nuni">+977-9867584593</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -87,8 +87,7 @@ export default function Footer6() {
                             </div>
                             <div className="border7" />
                             <div className="copyright4 text-center">
-                                <p className="font-16 font-nunito color-28 weight-500 ">Copyright {new Date().getFullYear()} © Consalt Finance Consultant,
-                                    Designed by Fleexstudio</p>
+                                <p className="font-16 font-nunito color-28 weight-500 ">Copyright {new Date().getFullYear()} © Elevate Your Business with Strategic Technology Solutions | Your Success, Our Expertise - Srifinity Tech Pvt. Ltd.| All Rights Reserved</p>
                             </div>
                         </div>
                     </div>

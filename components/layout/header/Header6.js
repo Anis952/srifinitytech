@@ -11,7 +11,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu }) {
                             <div className="col-12">
                                 <div className="header-elements">
                                     <div className="site-logo">
-                                        <Link href="/index1"><img src="/assets/images/logo/logo9.png" alt="" /></Link>
+                                        <Link href="/index1"><img src="/assets/images/logo/Srifinitynewlogo.png" alt="" /></Link>
                                     </div>
                                     <div className="main-menu-ex homepage3 homepage5 homepage6">
                                         <ul>
@@ -302,7 +302,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 <div className="phonr6-area">
                                                     <p className="font-16 lineh-16 color-h5 weight-400 font-nunito margin-b8">Free
                                                         Consultation</p>
-                                                    <Link href="/tel:123-456-7890" className="font-nunito font-18 lineh-18 weight-600 color-h5">123-456-7890</Link>
+                                                    <Link href="/+977-9863688874" className="font-nunito font-18 lineh-18 weight-600 color-h5">+977-9863688874</Link>
                                                 </div>
                                             </div>
                                         </div>
