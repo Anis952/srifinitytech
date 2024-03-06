@@ -1,6 +1,5 @@
----
+   ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/qjcocdbn/repositories/
-    - /bin/cp * $DEPLOYPATH
-    
+    - export DEPLOYPATH=/home/qjcocdbn/public_html/
+    - /bin/cp -R images $DEPLOYPATH
