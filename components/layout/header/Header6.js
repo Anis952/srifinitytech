@@ -15,8 +15,8 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu }) {
                                     </div>
                                     <div className="main-menu-ex homepage3 homepage5 homepage6">
                                         <ul>
-                                            <li className="mega-dropdawn"><Link href="#" className="font-nunito">Home <i className="fa-solid fa-angle-down" /></Link>
-                                                <ul className="mega-dropdawn-ul backgroudnone">
+                                            <li className="mega-dropdawn"><Link href="#" className="font-nunito">Home <i className="fa-solid " /></Link>
+                                                {/* <ul className="mega-dropdawn-ul backgroudnone">
                                                     <div className="mega-menu-all">
                                                         <div className="row">
                                                             <div className="col-lg-3">
@@ -209,7 +209,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu }) {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </ul>
+                                                </ul> */}
                                             </li>
                                             <li><Link href="/about" className="font-nunito font-16 weight-600 color-1">About Us</Link>
                                             </li>

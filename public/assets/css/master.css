@@ -627,9 +627,9 @@ ul.theme-mega-menu li.mega-menu {
   justify-content: space-between;
   align-items: center;
 }
-ul.mega-dropdawn-ul.backgroudnone {
+/* ul.mega-dropdawn-ul.backgroudnone {
     background: none;
-}
+} */
 .main-menu-ex.homepage11 .theme-btn11 {
     background: #22BFCA;
 }
@@ -938,9 +938,9 @@ a.shedule-btn2:hover{
   width: 240px;
 }
 
-.main-menu-ex.homepage5.mainmenuex .mega-dropdawn-ul.backgroundnone {
+/* .main-menu-ex.homepage5.mainmenuex .mega-dropdawn-ul.backgroundnone {
   background: transparent;
-}
+} */
 .main-menu-ex.homepage5 ul li ul li a{
   color: #0C161D;
 }
@@ -999,12 +999,12 @@ a.shedule-btn2:hover{
   opacity: 0;
  }
 
- .mega-dropdawn:hover .mega-menu-all {
+ /* .mega-dropdawn:hover .mega-menu-all {
   transform: translateY(0);
   transition: all.6s;
   visibility: visible;
   opacity: 1;
- }
+ } */
 
  .mega-menu-item-box::after {
   content: "";

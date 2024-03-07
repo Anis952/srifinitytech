@@ -14,7 +14,7 @@ export default function Header13({ scroll, isMobileMenu, handleMobileMenu }) {
                                     </div>
                                     <div className="main-menu-ex homepage4 main-menu-ex7">
                                         <ul>
-                                            <li className="mega-dropdawn"><Link href="#">Home <i className="fa-solid fa-angle-down" /></Link>
+                                            {/* <li className="mega-dropdawn"><Link href="#">Home <i className="fa-solid fa-angle-down" /></Link>
                                                 <ul className="mega-dropdawn-ul backgroudnone">
                                                     <div className="mega-menu-all">
                                                         <div className="row">
@@ -209,7 +209,7 @@ export default function Header13({ scroll, isMobileMenu, handleMobileMenu }) {
                                                         </div>
                                                     </div>
                                                 </ul>
-                                            </li>
+                                            </li> */}
                                             <li><Link href="/#about" className="font-ks font-16 weight-500 color">About Us</Link></li>
                                             <li><Link href="/#service" className="font-ks font-16 weight-500 color">Our Services </Link>
                                             </li>
