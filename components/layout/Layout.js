@@ -6,10 +6,7 @@ import BackToTop from '../elements/BackToTop'
 import Breadcrumb from './Breadcrumb'
 import MobileMenu from './MobileMenu'
 import Footer1 from './footer/Footer1'
-
 import Footer6 from './footer/Footer6'
-
-
 import Header6 from './header/Header6'
 
 
