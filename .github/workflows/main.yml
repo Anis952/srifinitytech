@@ -26,7 +26,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTB_SERVER }}
-          username: ${{ secrets.FTB_USERNAME }}
-          password: ${{ secrets.FTB_PASSWORD }}
-          port: ${{ secrets.FTB_PORT }}
+          server: ${{ secrets.ftp.srifinity.com }}
+          username: ${{ secrets.srifinity@srifinity.com }}
+          password: ${{ secrets.kathmandu1@@ }}
+          port: ${{ secrets.21 }}
