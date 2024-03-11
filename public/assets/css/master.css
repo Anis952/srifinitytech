@@ -9613,7 +9613,7 @@ button.contcat5:hover {
   transition: all .4s ease-in-out;
 }
 .contact5-btn5 {
-  text-align: end;
+  text-align: flex-end;
 }
 .contcat5-textarea5 {
   padding: 0 70px 0 0;
@@ -10197,10 +10197,10 @@ ul.contact-select li {
   z-index: 1;
   transition: all .4s ease-in-out;
   margin-top: 32px;
-  text-align: end;
+  text-align: flex-end;
 }
 .consalt-contact{
-  text-align: end;
+  text-align: flex-end;
 }
 .contact-consult::after {
   position: absolute;
@@ -11394,7 +11394,7 @@ a.contactcta10 {
 
 }
 .cta9-btnarea{
-  justify-content: end;
+  justify-content: flex-end;
 }
 .cta10-section-area{
   background-image: url(../images/sectionimg/cta8bg.png);
