@@ -1,10 +1,11 @@
 {
     "name": "start-app-dir",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "private": true,
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "start": "NODE_ENV=production node server.js",
         "start": "next start",
         "lint": "next lint",
         "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
