@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About US">
+            <Layout headerStyle={1} footerStyle={6} breadcrumbTitle="About US">
                 <div>
                     {/*===== ABOUT STARTS=======*/}
                     <div className="about3-section-area section-padding5">
@@ -19,10 +19,10 @@ export default function Home() {
                                 <div className="col-lg-6">
                                     <div className="about3-textarea1">
                                         <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">About Us</span>
-                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Mission Values Of Your Law Consult Firm</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Provide professional advice and guidance on legal matters, helping clients understand their rights, obligations, and potential courses.</p>
+                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Empowering Businesses through Microsoft Excellence</h1>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 ">At Srifinity, we are more than just a Microsoft Action Pack partner – we are your trusted ally in navigating the dynamic landscape of business technology. Our journey began with a vision to revolutionize the way businesses operate, and today, we stand as a beacon of reliability and expertise.</p>
                                         <div className="counter3-area3">
-                                            <div className="row">
+                                            {/* <div className="row">
                                                 <div className="col-lg-6 col-md-6">
                                                     <div className="counter3-boxarea4 text-center margin-b20 margin-t32">
                                                         <div className="counter4-boxarea4">
@@ -63,7 +63,7 @@ export default function Home() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <Link href="/about" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
                                             About Us{" "}
@@ -84,8 +84,8 @@ export default function Home() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="lawprovide-textarea">
-                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Our Team Provide Customer Centric Advice to Corporations</h1>
-                                        <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">Business Law Consulting: Detailed information about your business law services, including entity formation, contracts, mergers, acquisitions, and more. ntellectual Property.</p>
+                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Our Team Provide Customer Centric Advice to companies in different sectors.</h1>
+                                        <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">At Srifinity, our team is dedicated to offering customer-centric advice tailored to the unique needs of companies across various sectors. With a deep understanding of the diverse challenges businesses face, we prioritize putting the customer at the center of every decision and recommendation we make. By leveraging our expertise and industry knowledge, we help companies navigate complexities, identify opportunities, and implement strategies that drive meaningful growth and success. With a focus on building strong, long-lasting relationships, we are committed to delivering personalized guidance that empowers businesses to thrive in today's competitive landscape.</p>
                                         <p className="font-ks font-16 weight-500 lineh-26 color-30">Our team of seasoned legal professionals brings a wealth of experience across various practice areas. You can trust us to provide accurate, up-to-date, and effective legal advice.</p>
                                         <Link href="/team" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
                                             Meet Our Attorneys
@@ -102,20 +102,21 @@ export default function Home() {
                                         </div>
                                         <div className="lax-conultingprovide">
                                             <Link href="/servicemiddle" className="color-29">
-                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Personal Legal Guidance</h1>
+                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Microsoft Dynamics CRM and power platform Implementation</h1>
                                             </Link>
-                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">The first and most crucial step is understanding your unique financial aspirations and challenges.</p>
+                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts"></p>
                                         </div>
                                     </div>
+                                    
                                     <div className="lawprovide-boaxrea margin-b30">
                                         <div className="guidiance-boxarea">
                                             <img src="/assets/images/icons/consulting1.svg" alt="" className="ts" />
                                         </div>
                                         <div className="lax-conultingprovide">
                                             <Link href="/servicemiddle" className="color-29">
-                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Business Strategy Consulting</h1>
+                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Business Intilligence and Analytics</h1>
                                             </Link>
-                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">The first and most crucial step is understanding your unique financial aspirations and challenges.</p>
+                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts"></p>
                                         </div>
                                     </div>
                                     <div className="lawprovide-boaxrea">
@@ -124,10 +125,11 @@ export default function Home() {
                                         </div>
                                         <div className="lax-conultingprovide">
                                             <Link href="/servicemiddle" className="color-29">
-                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Litigation Support</h1>
+                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Microsoft Business Application and Third party system Integration</h1>
                                             </Link>
-                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">The first and most crucial step is understanding your unique financial aspirations and challenges.</p>
+                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts"></p>
                                         </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +150,7 @@ export default function Home() {
                                 <div className="col-lg-6">
                                     <div className="missiontextarea">
                                         <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Our Mission</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">Business Consulting: Detailed information about your business law services, including entity formation, contracts, mergers, acquisitions, and more. ntellectual Property.</p>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">At Srifinity, we are dedicated to empowering businesses in Nepal with cutting-edge business solutions fueled by Microsoft Technologies, including Artificial Intelligence (AI). Our mission is to equip Nepalese enterprises with the tools and expertise they need to thrive in today's digital landscape..</p>
                                         <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">We are dedicated to achieving favorable results for our clients. Whether it's a business deal, personal matter, or legal dispute, we strive for excellence in all aspects of our work.</p>
                                         <ul>
                                             <li className="font-ks font-16 lineh-16 weight-600 color-17 margin-b20">
@@ -156,12 +158,14 @@ export default function Home() {
                                                     <img src="/assets/images/icons/check1.png" alt="" />
                                                 </span>
                                                 Client-Focused Solutions and Results
+
                                             </li>
                                             <li className="font-ks font-16 lineh-16 weight-600 color-17 margin-b20">
                                                 <span>
                                                     <img src="/assets/images/icons/check1.png" alt="" />
                                                 </span>
                                                 Flexible, Value Driven Approach
+
                                             </li>
                                             <li className="font-ks font-16 lineh-16 weight-600 color-17 margin-b20">
                                                 <span>
@@ -195,7 +199,7 @@ export default function Home() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="vission-textarea">
-                                        <h1 className="font-48 lineh-56 font-lora weight-600 color-29 margin-b20">The First Choice For Your Problem</h1>
+                                        <h1 className="font-48 lineh-56 font-lora weight-600 color-29 margin-b20">Top Business Solutions Provider in Nepal: Microsoft CRM and Power Platform Experts</h1>
                                         <p className="font-16 lineh-26 weight-500 color-30 margin-b24">We understand that every case is unique. That's why we take the time to listen to your concerns and tailor our services to your specific situation, ensuring the best possible outcomes.</p>
                                         <div className="border7 margin-b20" />
                                         <div className="nav-section-area">
@@ -219,10 +223,10 @@ export default function Home() {
                                             <div className="tab-content" id="pills-tabContent">
                                                 <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex={0}>
                                                     <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
-                                                        <span className="weight-700 color-29">Personalized Approach:</span> We understand that every case unique. That's why we take the time to listen to your concerns and tailor our services to your specific situation.
+                                                        <span className="weight-700 color-29">Our Mission:</span> Empower businesses in Nepal to compete, scale, and achieve exponential growth by harnessing the transformative capabilities of AI.
                                                     </p>
                                                     <p className="font-ks font-16 weight-500 lineh-26 color-30">
-                                                        <span className="weight-700 color-29">Client-Centric:</span> Your satisfaction is our priority. We maintain to open communication, keeping you informed at every step of the process. Your questions and feedback are always welcome.
+                                                        <span className="weight-700 color-29">Competitive Edge:</span>  By equipping businesses in Nepal with the capabilities to harness AI, we enable them to gain a competitive edge in their respective industries. Through AI-powered insights and automation, businesses can make data-driven decisions, optimize processes, and stay ahead of the curve in an ever-evolving market landscape.
                                                     </p>
                                                 </div>
                                                 <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex={0}>
@@ -270,7 +274,7 @@ export default function Home() {
                                     <div className="team-section-textarea text-center margin-b60">
                                         <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Our Expert Attorneys</span>
                                         <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20 clienth2">
-                                            Meet Our Expert Law <br /> Consulting Team
+                                        Meet our Expert Technical and<br />  functional consultants 
                                         </h1>
                                     </div>
                                 </div>
@@ -279,7 +283,7 @@ export default function Home() {
                                 <div className="col-lg-3 margin-b30 col-md-6">
                                     <div className="project-item-two">
                                         <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/team1.png" alt="" />
+                                            <img src="/assets/images/sectionimg/aashish baral.png" alt="" />
                                         </div>
                                         <div className="project-content-two">
                                             <ul>
@@ -308,17 +312,17 @@ export default function Home() {
                                         <div className="team-pera text-center margin-t">
                                             <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
                                                 <Link href="/team" className="color-29">
-                                                    Johnathan Stehr
+                                                    Ashish baral
                                                 </Link>
                                             </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Subject Matter Experts</p>
+                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Microsoft Business Application Expert</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 margin-b30 col-md-6">
                                     <div className="project-item-two">
                                         <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/team2.png" alt="" />
+                                            <img src="/assets/images/sectionimg/Animesh pandey.png" alt="" />
                                         </div>
                                         <div className="project-content-two">
                                             <ul>
@@ -347,17 +351,17 @@ export default function Home() {
                                         <div className="team-pera text-center margin-t">
                                             <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
                                                 <Link href="/team" className="color-29">
-                                                    Brian Ebert DVM
+                                                   Animesh pandey
                                                 </Link>
                                             </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Educational Consultantst</p>
+                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Product Solution Architect</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 margin-b30 col-md-6">
                                     <div className="project-item-two">
                                         <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/team1.png" alt="" />
+                                            <img src="/assets/images/sectionimg/avishek Poudel.png" alt="" />
                                         </div>
                                         <div className="project-content-two">
                                             <ul>
@@ -386,17 +390,17 @@ export default function Home() {
                                         <div className="team-pera text-center margin-t">
                                             <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
                                                 <Link href="/team" className="color-29">
-                                                    Marion Blanda PhD
+                                                   Avishek Poudel
                                                 </Link>
                                             </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Nonprofit Consultants</p>
+                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Microsoft Business Application Expert</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 margin-b30 col-md-6">
                                     <div className="project-item-two">
                                         <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/team3.png" alt="" />
+                                            <img src="/assets/images/sectionimg/Kiran.png" alt="" />
                                         </div>
                                         <div className="project-content-two">
                                             <ul>
@@ -425,10 +429,11 @@ export default function Home() {
                                         <div className="team-pera text-center margin-t">
                                             <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
                                                 <Link href="/team" className="color-29">
-                                                    Warren Predovic
+                                                Kiran Chaulagain
+
                                                 </Link>
                                             </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Technology Consultantst</p>
+                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Application Engineering Manager</p>
                                         </div>
                                     </div>
                                 </div>
@@ -443,8 +448,13 @@ export default function Home() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="cta5-auhtor6-area">
-                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get expert Law advice on criminal strategies</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">We believe that informed clients make better Law decisions. As part of our service, we'll provide educational resources and workshops to help.</p>
+                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get In Touch</h1>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">Embark on a journey of digital transformation with Srifinity Tech. Contact us today to discover how our expertise and commitment to excellence can elevate your business to new heights.<br></br>
+
+Admin@srifinity.com, Avishek@srifinity.com
++977-9767584593
+<br></br>
+Thank you for choosing Srifinity Tech – where innovation meets reliability for your business success!</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-2" />

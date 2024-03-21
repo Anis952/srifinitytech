@@ -12,7 +12,7 @@ export default function Service2() {
                         <div className="col-lg-12" data-aos="fade-down" data-aos-duration={800}>
                             <div className="service-haeder-text text-center margin-b60">
                                 <span className="maximum font-outfit font-16 lineh-16 color-12 weight-500 margin-b20 d-inline-block">Our
-                                    Services</span>
+                                    e</span>
                                 <h1 className="font-outfit font-44 weight-600 lineh-52 color-17 margin-b20">Our profession business
                                     consultant Services.</h1>
                             </div>

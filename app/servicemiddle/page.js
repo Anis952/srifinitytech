@@ -23,7 +23,7 @@ export default function Home() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Business Growth Plan">
+            <Layout headerStyle={13} footerStyle={1} breadcrumbTitle="Business Growth Plan">
                 <div>
                     <div className="serviceleft-section-area section-padding5">
                         <div className="container">
@@ -34,10 +34,8 @@ export default function Home() {
                                         <img src="/assets/images/sectionimg/servicedeailsimg1.png" alt="" />
                                         <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">Business Growth
                                             Plan</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b20">We are dedicated to providing
-                                            top-notch consulting services that drive growth, innovation, and efficiency in your
-                                            business. With a team of seasoned experts in Consalt we bring a wealth of to many dream
-                                            knowledge and experience to help you tackle your most pressing challenges.</p>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b20">Microsoft Dynamics CRM and Power Platform Implementation:
+In the context of Nepal's evolving business landscape, harnessing the power of Microsoft Dynamics CRM and the Power Platform is crucial for organizations aiming to streamline their operations and enhance customer relationships. Our team specializes in implementing these solutions tailored to the unique needs of Nepalese businesses. By leveraging Dynamics CRM, we help companies in Nepal centralize customer data, automate processes, and drive sales effectiveness. Additionally, with the Power Platform, we empower organizations to create custom applications and automate workflows, enabling them to achieve greater efficiency and agility in their operations.</p>
                                         <p className="font-ks font-16 lineh-26 weight-500 color-30">Our mission is to be more than just
                                             consultants we aim to be your strategic partners, working collaboratively to transform your
                                             vision into reality. By combining industry insights with tailored solutions, we help you

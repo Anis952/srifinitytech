@@ -34,9 +34,7 @@ export default function About2() {
                                 <h1 className="font-outfit font-44 weight-600 lineh-52 color-17 margin-b20" data-aos="fade-left" data-aos-duration={1000}>Maximize your potential with expert consultation.</h1>
                                 <div className="pera-background" data-aos="fade-left" data-aos-duration={1200}>
                                     <p className="font-outfit font-16 lineh-26 color-17 weight-500">Ready to experience the benefits
-                                        of partnering with PAE Business Consulting? Schedule a free consultation with our
-                                        experienced team today and discover how our expertise can drive growth, optimize
-                                        operations, and unlock your business's full potential.</p>
+                                        of partnering with al.</p>
                                 </div>
                                 <p className="font-outfit font-16 lineh-26 colorp weight-400">Experience: Our team brings years of
                                     experience across various industries, allowing us to offer insights and strategies that are

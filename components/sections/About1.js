@@ -17,9 +17,9 @@ export default function About1() {
                         </div>
                         <div className="col-lg-6" data-aos="fade-left" data-aos-duration={800}>
                             <div className="about3-textarea1">
-                                <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">About
+                                <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">sdfgfds
                                     Us</span>
-                                <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Mission  Values Of Your
+                                <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Mission  sdfgcbcfvds Of Your
                                     Law Consult Firm</h1>
                                 <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Provide professional advice and
                                     guidance on legal matters, helping clients understand their rights, obligations, and

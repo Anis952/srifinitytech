@@ -17,7 +17,7 @@ export default function Home() {
         <>
             <Layout headerStyle={13} footerStyle={1}>
                 <Welcome1 />
-                <About1 />
+                {/* <About1 /> */}
                 <Service1 />
                 <Client1 />
                 <Cta1 />
