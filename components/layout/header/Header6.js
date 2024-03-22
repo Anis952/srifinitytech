@@ -213,42 +213,42 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu }) {
                                             </li>
                                             <li><Link href="/about" className="font-nunito font-16 weight-600 color-1">About Us</Link>
                                             </li>
-                                            <li><Link href="#" className="font-nunito font-16 weight-600 color-ni">Our Services
+                                            <li><Link href="#" className="font-nunito font-16 weight-600 color-ni">Our Product and Services
                                                 <span><i className="fa-solid fa-angle-down" /></span></Link>
                                                 <ul className="dropdown-padding">
-                                                    <li><Link href="/about" className="font-nunito font-16 weight-500 color"> Our
-                                                        Service <i className="fa-solid fa-angle-right" /></Link>
-                                                        <ul>
+                                                    <li><Link href="/servicev1" className="font-nunito font-16 weight-500 color"> Our
+                                                        Product <i className="fa-solid fa-angle-right" /></Link>
+                                                        {/* <ul>
                                                             <li><Link href="/servicev1" className="font-nunito font-16 weight-500 color-ni">Service
                                                                 V1</Link></li>
                                                             <li><Link href="/servicev2" className="font-nunito font-16 weight-500 color-ni">Service
                                                                 V2</Link></li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </li>
-                                                    <li><Link href="/about" className="font-nunito font-16 weight-500 color">Service Details <i className="fa-solid fa-angle-right" /></Link>
-                                                        <ul>
+                                                    <li><Link href="/servicev2" className="font-nunito font-16 weight-500 color">Service  <i className="fa-solid fa-angle-right" /></Link>
+                                                        {/* <ul>
                                                             <li><Link href="/serviceleft" className="font-nunito font-16 weight-500 color-ni">Service
                                                                 Details Left</Link></li>
                                                             <li><Link href="/serviceright" className="font-nunito font-16 weight-500 color-ni">Service
                                                                 Details Right</Link></li>
                                                             <li><Link href="/servicemiddle" className="font-nunito font-16 weight-500 color-ni">Single
                                                                 Service</Link></li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><Link href="#" className="font-nunito font-16 weight-600 color-ni">Case Studies
+                                            <li><Link href="casemiddle" className="font-nunito font-16 weight-600 color-ni">Case Studies
                                                 <span><i className="fa-solid fa-angle-down" /></span></Link>
-                                                <ul>
+                                                {/* <ul>
                                                     <li><Link href="/casestudy1" className="font-nunito font-16 weight-500 color">Case Study</Link></li>
                                                     <li><Link href="/caseleft" className="font-nunito font-16 weight-500 color">Case Details left</Link>
                                                     </li>
                                                     <li><Link href="/caseright" className="font-nunito font-16 weight-500 color">Case Detals Right</Link>
                                                     </li>
                                                     <li><Link href="/casemiddle" className="font-nunito font-16 weight-500 color">Single Case</Link></li>
-                                                </ul>
+                                                </ul> */}
                                             </li>
-                                            <li><Link href="#" className="font-nunito font-16 weight-600 color-ni"> Our Blogs <span><i className="fa-solid fa-angle-down" /></span></Link>
+                                            {/* <li><Link href="#" className="font-nunito font-16 weight-600 color-ni"> Our Blogs <span><i className="fa-solid fa-angle-down" /></span></Link>
                                                 <ul>
                                                     <li><Link href="/blog2" className="font-nunito font-16 weight-500 color">Our
                                                         Blog <i className="fa-solid fa-angle-right" /></Link>
@@ -281,7 +281,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu }) {
                                                     <li><Link href="/contact1" className="font-nunito font-16 weight-500 color">Contact 1</Link></li>
                                                     <li><Link href="/contact2" className="font-nunito font-16 weight-500 color">Contact 2</Link></li>
                                                 </ul>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                     <div className="contact-3 d-lg-block d-none">

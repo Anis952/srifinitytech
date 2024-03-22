@@ -11,7 +11,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
                             <div className="col-12">
                                 <div className="header-elements">
                                     <div className="site-logo">
-                                        <Link href="/index1"><img src="/assets/images/logo/logo7.png" alt="" /></Link>
+                                        {/* <Link href="/index1"><img src="/assets/images/logo/logo7.png" alt="" /></Link> */}
                                     </div>
                                     <div className="main-menu-ex homepage4 main-menu-ex7">
                                         <ul>
@@ -212,7 +212,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 </ul>
                                             </li> */}
                                             <li><Link href="/#about" className="font-ks font-16 weight-500 color">About Us</Link></li>
-                                            <li><Link href="/#service" className="font-ks font-16 weight-500 color">Our Services </Link>
+                                            <li><Link href="/#service" className="font-ks font-16 weight-500 color">Our Product and Services </Link>
                                             </li>
                                             <li><Link href="/#testimonial" className="font-ks font-16 weight-500 color">Testimonials</Link>
                                             </li>

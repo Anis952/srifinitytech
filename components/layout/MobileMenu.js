@@ -25,7 +25,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                     <div className="col-12">
                         <div className="mobile-header-elements">
                             <div className="mobile-logo">
-                                <Link href="/index1"><img src="/assets/images/logo/logo7.png" alt="" /></Link>
+                                <Link href="/index1"><img src="/assets/images/logo/Srifinitynewlogo.png" alt="" /></Link>
                             </div>
                             <div className="mobile-nav-icon dots-menu" onClick={handleMobileMenu}>
                                 <i className="fa-solid fa-bars" />

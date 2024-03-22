@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Our Services v2">
+            <Layout headerStyle={1} footerStyle={6} breadcrumbTitle="Our Services v2">
                 <div>
                     <div className="servicev1-section-area section-padding5">
                         <div className="container">
@@ -14,7 +14,7 @@ export default function Home() {
                                 <div className="col-lg-7 m-auto">
                                     <div className="servicev1-textarea margin-b60 text-center">
                                         <h1 className="font-48 font-lora weight-600 color-29 lineh-56">We Offer Comprehensive Approach To
-                                            Financial Advice</h1>
+                                            Business technology consultant</h1>
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-md-6">
+                                {/* <div className="col-lg-6 col-md-6">
                                     <div className="service3-boxarea margin-b30 bgservice2">
                                         <div className="row">
                                             <div className="col-lg-6 ">
@@ -202,10 +202,10 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="row">
                                     <div className="col-lg-12 text-center">
-                                        <nav aria-label="Page navigation example">
+                                        {/* <nav aria-label="Page navigation example">
                                             <ul className="pagination">
                                                 <li className="page-item">
                                                     <Link className="page-link" href="#" aria-label="Previous">
@@ -223,7 +223,7 @@ export default function Home() {
                                                     </Link>
                                                 </li>
                                             </ul>
-                                        </nav>
+                                        </nav> */}
                                     </div>
                                 </div>
                             </div>

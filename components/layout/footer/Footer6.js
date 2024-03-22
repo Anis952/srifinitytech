@@ -11,7 +11,7 @@ export default function Footer6() {
                                 <div className="row">
                                     <div className="col-lg-3">
                                         <div className="footer-3logo">
-                                            <img src="/assets/images/logo/logo9.png" alt="" />
+                                            <img src="//assets/images/logo/Srifinitynewlogo.png" alt="" />
                                             <p className="font-nunito font-16 lineh-26 color-nuni margin-t margin-b24">Elevate your business with our tailored technology 
                                             solutions. Explore answers to frequently asked questions, discover flexible pricing options, and choose from service packages 
                                             designed to meet your unique needs. For personalized consultations or inquiries, contact our team at admin@srifinity.com or 
