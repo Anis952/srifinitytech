@@ -217,7 +217,7 @@ export default function Home() {
                                 <div className="col-lg-2" />
                                 <div className="col-lg-4">
                                     <div className="cta5-btn5-sexction">
-                                        <Link href="/contact1" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">Get Law Advice
+                                        <Link href="/contact2" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">Get in Touch
                                             <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                         <Link href="/contact2" className="theme6-btn6 backgrnd6 font-ks lineh-16 weight-700 color-29 font-16">Contact Us
                                             <span><i className="fa-solid fa-arrow-right" /></span></Link>

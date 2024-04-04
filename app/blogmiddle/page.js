@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog Middle">
+            <Layout headerStyle={1} footerStyle={6} breadcrumbTitle="Empowering Your Business with the Power Platform ">
                 <div>
                     <div className="blogleft-section-area section-padding5">
                         <div className="container">
@@ -20,12 +20,12 @@ export default function Home() {
                                             <div className="alex">
                                                 <img src="/assets/images/sectionimg/alex1.png" alt="" />
                                                 <Link href="#" className="color-29">
-                                                    <p className="font-ks font-16 lineh-24 weight-600 color-29">Alex Robartson</p>
+                                                    <p className="font-ks font-16 lineh-24 weight-600 color-29">Anish Thapa</p>
                                                 </Link>
                                             </div>
                                             <div className="alex">
                                                 <img src="/assets/images/icons/daterane.png" alt="" />
-                                                <Link href="#" className="font-16 lineh-16 font-ks weight-600 color-29">05 Jun 2023</Link>
+                                                <Link href="#" className="font-16 lineh-16 font-ks weight-600 color-29">01 April 2024</Link>
                                             </div>
                                             <div className="alex">
                                                 <img src="/assets/images/icons/tag1.png" alt="" />
@@ -33,35 +33,23 @@ export default function Home() {
                                                     <p className="font-ks font-16 lineh-24 weight-600 color-29">Business Evaluation</p>
                                                 </Link>
                                             </div>
-                                            <div className="alex alex1">
+                                            {/* <div className="alex alex1">
                                                 <img src="/assets/images/icons/cmnt1.svg" alt="" />
                                                 <Link href="#" className="color-29">
                                                     <p className="font-ks font-16 lineh-24 weight-600 color-29">2 Comments</p>
                                                 </Link>
-                                            </div>
+                                            </div> */}
                                         </div>
-                                        <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20">Organizational Development
-                                            And Leadership Consulting</h1>
-                                        <p className="font-ks fotn-16 weight-500 lineh-26 color-30  margin-b20">It is important for leaders
-                                            to pause and brainstorm ideas to help employees rejuvenate. Companies often believe that
-                                            devoting work hours to team socialization is a waste of time. Let us consider a situation.
-                                            Imagine a book with no spaces. Yes, all the words put together with the aim to make sense
-                                            and deliver knowledge but without spaces. Will it be of any use? What value can it provide
-                                            one it? All it can lead to is stress and confusion. Hence, it is important to take breaks.
-                                            It is important.</p>
+                                        <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20">Empowering Your Business with the Power Platform </h1>
+                                        <p className="font-ks fotn-16 weight-500 lineh-26 color-30  margin-b20">In today's hyper-competitive business landscape, organizations are constantly seeking ways to drive innovation,enhance productivity, and deliver superior experiences to customers and employees.Amidst this pursuit of excellence, the Microsoft Power Platform has emerged as a transformative solution, empowering businesses to unlock their full potential through low-code and no-code development tools.  .</p>
                                         <p className="font-ks fotn-16 weight-500 lineh-26 color-30 ">Our mission is to be more than just
                                             consultants – we aim to be your strategic partners, working collaboratively to transform
                                             your vision into reality. By combining industry insights with tailored solutions, we help
                                             you navigate the complexities of today's business landscape and achieve.</p>
                                         <div className="border30" />
                                         <img src="/assets/images/sectionimg/blogleftimg2.png" alt="" className="w-100 innerimg" />
-                                        <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t32">Organizational
-                                            Development And Leadership Consulting</h1>
-                                        <p className="font-ks fotn-16 weight-500 lineh-26 color-30  margin-b20">With years of experience
-                                            across a diverse range of industries, we understand the challenges you face. Our proven
-                                            track record of delivering results speaks to our commitment to excellence. Whether you're a
-                                            startup seeking to disrupt the market or an established corporation looking to streamline
-                                            operations, our tailored approach ensures that your unique needs are met.</p>
+                                        <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t32">Democratizing Development</h1>
+                                        <p className="font-ks fotn-16 weight-500 lineh-26 color-30  margin-b20">Traditionally, app development was a complex and time-consuming process, often requiring specialized skills and resources. However, with the Power Platform, businesses can democratize development, enabling users across departments to create custom applications tailored to their unique needs. Power Apps allows users to build intuitive and responsive apps with drag-and-drop simplicity, while Power Automate automates repetitive tasks and workflows without writing extensive code. Additionally, Power BI provides powerful analytics and visualization capabilities, empowering users to derive actionable insights from their data. By democratizing development, the Power Platform fosters a culture of innovation and agility within organizations, enabling them to respond quickly to changing market demands and drive continuous improvement.   </p>
                                         <div className="checkservice-area">
                                             <ul>
                                                 <li>
@@ -144,7 +132,9 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <div className="border30 borderpadding" />
-                                        <div className="postsocial-area">
+                                      
+
+                                        {/* <div className="postsocial-area">
                                             <div className="posttags">
                                                 <ul>
                                                     <li>
@@ -169,10 +159,11 @@ export default function Home() {
                                                     <li><Link href="#" className="color-29"><i className="fa-brands fa-instagram" /></Link></li>
                                                 </ul>
                                             </div>
-                                        </div>
-                                        <div className="boredr30 borderpadding1" />
-                                        <h1 className="font-24 weight-600 color-29 font-lora ">Blog Comments (2)</h1>
-                                        <div className="reply-section-area margin-b30 margin-t32">
+                                        </div> */}
+
+                                        {/* <div className="boredr30 borderpadding1" />
+                                        <h1 className="font-24 weight-600 color-29 font-lora ">Blog Comments (2)</h1> */} 
+                                        {/* <div className="reply-section-area margin-b30 margin-t32">
                                             <div className="replyfleex-area">
                                                 <div className="repl-boxarea">
                                                     <div className="replyimg">
@@ -260,7 +251,7 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -268,7 +259,7 @@ export default function Home() {
                     </div>
                     {/*===== BLOGLEFT  END=======*/}
                     {/*===== BLOGLEFT BLOG STARTS=======*/}
-                    <div className="blogleft-blog-section-area section-padding8">
+                    {/* <div className="blogleft-blog-section-area section-padding8">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-6 m-auto">
@@ -343,7 +334,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/*===== BLOGLEFT BLOG END=======*/}
                     {/*===== CTA STARST=======*/}
                     <div className="cta5-section-area section-padding4">
@@ -352,17 +343,15 @@ export default function Home() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="cta5-auhtor6-area">
-                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get expert Law
-                                            advice on criminal strategies</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">We believe that informed clients make
-                                            better Law decisions. As part of our service, we'll provide educational resources and
-                                            workshops to help.</p>
+                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get In Touch
+</h1>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">Embark on a journey of digital transformation with Srifinity Tech. Contact us today to discover how our expertise and commitment to excellence can elevate your business to new heights..</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-2" />
                                 <div className="col-lg-4">
                                     <div className="cta5-btn5-sexction">
-                                        <Link href="/contact1" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">Get Law Advice
+                                        <Link href="/contact2" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">Get In Touch
                                             <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                         <Link href="/contact2" className="theme6-btn6 backgrnd6 font-ks lineh-16 weight-700 color-29 font-16">Contact Us
                                             <span><i className="fa-solid fa-arrow-right" /></span></Link>

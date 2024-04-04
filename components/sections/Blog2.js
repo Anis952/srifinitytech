@@ -31,8 +31,8 @@ export default function Blog2() {
                                         <Link href="/blogmiddle" className="ts">
                                             <h1 className="font-20 font-outfit color lineh-20 weight-600 margin-b ts">Organizational
                                                 development and leadership consulting</h1>
-                                        </Link>
-                                        <p className="font-16 font-outfit lineh-26 weight-400 color ts">pproach: Emphasize your
+                                        </Link> 
+                                        <p className="font-16 font-outfit lineh-26 weight-400 color ts">Aproach: Emphasize your
                                             client-centric approach and how you tailor your consulting services to meet the
                                             specific needs and goals of each client.</p>
                                         <Link href="/blogmiddle" className="font-16 font-outfit weight-700 color lineh-26 text-uppercase margin-t32 d-inline-block learn-more learn-more1 ts">LEARN

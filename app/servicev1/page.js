@@ -128,7 +128,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6">
+                                {/* <div className="col-lg-3 col-md-6">
                                     <div className="service4-boxarea5 text-center margin-b24">
                                         <div className="service5-boxarea5">
                                             <div className="service5-icons margin-b20">
@@ -137,7 +137,7 @@ export default function Home() {
                                             <p className="font-lora font-20 lineh-26 weight-600 color-31">Criminal Defense</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="row">
                                     <div className="col-lg-12 text-center">
                                         <nav aria-label="Page navigation example">
@@ -172,17 +172,14 @@ export default function Home() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="cta5-auhtor6-area">
-                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get expert Law
-                                            advice on criminal strategies</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">We believe that informed clients make
-                                            better Law decisions. As part of our service, we'll provide educational resources and
-                                            workshops to help.</p>
+                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get In Touch</h1>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">Embark on a journey of digital transformation with Srifinity Tech. Contact us today to discover how our expertise and commitment to excellence can elevate your business to new heights.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-2" />
                                 <div className="col-lg-4">
                                     <div className="cta5-btn5-sexction">
-                                        <Link href="/contact1" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">Get Law Advice
+                                        <Link href="/contact2" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">Get in touch
                                             <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                         <Link href="/contact2" className="theme6-btn6 backgrnd6 font-ks lineh-16 weight-700 color-29 font-16">Contact Us
                                             <span><i className="fa-solid fa-arrow-right" /></span></Link>

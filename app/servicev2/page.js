@@ -24,13 +24,12 @@ export default function Home() {
                                         <div className="row">
                                             <div className="col-lg-6 ">
                                                 <div className="service3-text2">
-                                                    <Link href="/servicemiddle">
-                                                        <h1 className="font-lora font-22 lineh-24 color-29 weight-600 margin-b">Financial
-                                                            Planning</h1>
+                                                    <Link href="/servicemiddle2">
+                                                        <h1 className="font-lora font-22 lineh-24 color-29 weight-600 margin-b">Dynamics 365 Finance and Operations </h1>
                                                     </Link>
                                                     <p className="font-ks font-16 lineh-26 weight-500 color-30">Our team comprises certified
-                                                        financial experts with years of experience in diverse areas of finance.</p>
-                                                    <Link href="/servicemiddle" className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2">Learn
+                                                    Dynamics 365 Finance and Operations experts with years of experience in diverse areas of finance.</p>
+                                                    <Link href="/servicemiddle2" className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2">Learn
                                                         More <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                                 </div>
                                             </div>
@@ -41,19 +40,22 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
+
+
+
+                                    
                                 </div>
-                                {/* <div className="col-lg-6 col-md-6">
+                              <div className="col-lg-6 col-md-6">
                                     <div className="service3-boxarea margin-b30 bgservice2">
                                         <div className="row">
                                             <div className="col-lg-6 ">
                                                 <div className="service3-text2">
-                                                    <Link href="/servicemiddle">
-                                                        <h1 className="font-lora font-22 lineh-24 color-29 weight-600 margin-b">Business
-                                                            Growth Plan</h1>
+                                                    <Link href="/servicemiddle3">
+                                                        <h1 className="font-lora font-22 lineh-24 color-29 weight-600 margin-b">Microsoft 365 </h1>
                                                     </Link>
                                                     <p className="font-ks font-16 lineh-26 weight-500 color-30">Our team comprises certified
-                                                        financial experts with years of experience in diverse areas of finance.</p>
-                                                    <Link href="/servicemiddle" className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2">Learn
+                                                    Microsoft 365 experts with years of experience in diverse areas of finance.</p>
+                                                    <Link href="/servicemiddle3" className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2">Learn
                                                         More <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                                 </div>
                                             </div>
@@ -65,18 +67,18 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
+
+                                
                                 <div className="col-lg-6 col-md-6">
                                     <div className="service3-boxarea margin-b30 bgservice2">
                                         <div className="row">
                                             <div className="col-lg-6 ">
                                                 <div className="service3-text2">
-                                                    <Link href="/servicemiddle">
-                                                        <h1 className="font-lora font-22 lineh-24 color-29 weight-600 margin-b">Best
-                                                            Marketing Analysis</h1>
+                                                    <Link href="/servicemiddle4">
+                                                        <h1 className="font-lora font-22 lineh-24 color-29 weight-600 margin-b">Technical Support/ Managed Services </h1>
                                                     </Link>
-                                                    <p className="font-ks font-16 lineh-26 weight-500 color-30">Our team comprises certified
-                                                        financial experts with years of experience in diverse areas of finance.</p>
-                                                    <Link href="/servicemiddle" className="font-nunito font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2">Learn
+                                                    <p className="font-ks font-16 lineh-26 weight-500 color-30">Welcome to a world of seamless operations and peace of mind with our top-notch Technical Support and Managed Services. Our commitment is to ensure that your business runs smoothly, without interruption, and with optimal performance.</p>
+                                                    <Link href="/servicemiddle4" className="font-nunito font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2">Learn
                                                         More <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                                 </div>
                                             </div>
@@ -88,18 +90,18 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
+
+
                                 <div className="col-lg-6 col-md-6">
                                     <div className="service3-boxarea margin-b30 bgservice2">
                                         <div className="row">
                                             <div className="col-lg-6 ">
                                                 <div className="service3-text2">
-                                                    <Link href="/servicemiddle">
-                                                        <h1 className="font-lora font-22 lineh-24 color-29 weight-600 margin-b">Tax
-                                                            Managment Plan</h1>
+                                                    <Link href="/servicemiddle5">
+                                                        <h1 className="font-lora font-22 lineh-24 color-29 weight-600 margin-b">Dynamics 365 Customer Relationship Management /Power Platform </h1>
                                                     </Link>
-                                                    <p className="font-ks font-16 lineh-26 weight-500 color-30">Our team comprises certified
-                                                        financial experts with years of experience in diverse areas of finance.</p>
-                                                    <Link href="/servicemiddle" className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2">Learn
+                                                    <p className="font-ks font-16 lineh-26 weight-500 color-30">Welcome to a world of tailored solutions and unparalleled customer engagement with our comprehensive suite of services centered around Dynamics 365 Customer Relationship Management (D365 CRM) and the Power Platform. </p>
+                                                    <Link href="/servicemiddle5" className="font-ks font-16 lineh-16 color-29 weight-700 margin-t d-inline-block laearnmore2">Learn
                                                         More <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                                 </div>
                                             </div>
@@ -111,7 +113,8 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-md-6">
+
+                                {/* <div className="col-lg-6 col-md-6">
                                     <div className="service3-boxarea margin-b30 bgservice2">
                                         <div className="row">
                                             <div className="col-lg-6 ">
@@ -133,8 +136,11 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6">
+                                </div> */}
+
+
+                                
+                                {/* <div className="col-lg-6 col-md-6">
                                     <div className="service3-boxarea margin-b30 bgservice2">
                                         <div className="row">
                                             <div className="col-lg-6 ">
@@ -156,8 +162,9 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6">
+                                </div> */}
+
+                                {/* <div className="col-lg-6 col-md-6">
                                     <div className="service3-boxarea margin-b30 bgservice2">
                                         <div className="row">
                                             <div className="col-lg-6 ">
@@ -179,8 +186,9 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6">
+                                </div> */}
+
+                                {/* <div className="col-lg-6 col-md-6">
                                     <div className="service3-boxarea margin-b30 bgservice2">
                                         <div className="row">
                                             <div className="col-lg-6 ">
@@ -203,9 +211,10 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div> */}
+
                                 <div className="row">
                                     <div className="col-lg-12 text-center">
-                                        {/* <nav aria-label="Page navigation example">
+                                        <nav aria-label="Page navigation example">
                                             <ul className="pagination">
                                                 <li className="page-item">
                                                     <Link className="page-link" href="#" aria-label="Previous">
@@ -223,10 +232,17 @@ export default function Home() {
                                                     </Link>
                                                 </li>
                                             </ul>
-                                        </nav> */}
+                                        </nav>
                                     </div>
                                 </div>
                             </div>
+
+
+
+
+
+
+                            
                         </div>
                     </div>
                     {/*===== SERVCEV2 END=======*/}
@@ -237,17 +253,14 @@ export default function Home() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="cta5-auhtor6-area">
-                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get expert Law
-                                            advice on criminal strategies</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">We believe that informed clients make
-                                            better Law decisions. As part of our service, we'll provide educational resources and
-                                            workshops to help.</p>
+                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get In Touch</h1>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">Embark on a journey of digital transformation with Srifinity Tech. Contact us today to discover how our expertise and commitment to excellence can elevate your business to new heights.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-2" />
                                 <div className="col-lg-4">
                                     <div className="cta5-btn5-sexction">
-                                        <Link href="/contact1" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">Get Law Advice
+                                        <Link href="/contact2" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">Get in Touch
                                             <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                         <Link href="/contact2" className="theme6-btn6 backgrnd6 font-ks lineh-16 weight-700 color-29 font-16">Contact Us
                                             <span><i className="fa-solid fa-arrow-right" /></span></Link>

@@ -228,6 +228,11 @@ export default function Home() {
                                                     <p className="font-ks font-16 weight-500 lineh-26 color-30">
                                                         <span className="weight-700 color-29">Competitive Edge:</span>  By equipping businesses in Nepal with the capabilities to harness AI, we enable them to gain a competitive edge in their respective industries. Through AI-powered insights and automation, businesses can make data-driven decisions, optimize processes, and stay ahead of the curve in an ever-evolving market landscape.
                                                     </p>
+                                                    <p className="font-ks font-16 weight-500 lineh-26 color-30">
+                                                        <span className="weight-700 color-29">Scalability and Growth:</span>  Our vision extends beyond mere survival; we aspire to facilitate exponential growth for businesses in Nepal. With AI as a catalyst, businesses can scale their operations efficiently, explore new opportunities, and expand their reach both locally and globally. By empowering businesses to unlock the full potential of AI, we aim to fuel sustainable growth and prosperity across Nepal's business ecosystem.
+                                                    </p>
+
+
                                                 </div>
                                                 <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex={0}>
                                                     <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
@@ -460,8 +465,8 @@ Thank you for choosing Srifinity Tech – where innovation meets reliability for
                                 <div className="col-lg-2" />
                                 <div className="col-lg-4">
                                     <div className="cta5-btn5-sexction">
-                                        <Link href="/contact1" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">
-                                            Get Law Advice
+                                        <Link href="/contact2" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">
+                                            Get in touch
                                             <span>
                                                 <i className="fa-solid fa-arrow-right" />
                                             </span>

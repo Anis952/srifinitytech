@@ -21,7 +21,7 @@ export default function Home() {
     };
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contact Us">
+            <Layout headerStyle={1} footerStyle={6} breadcrumbTitle="Contact Us">
                 <div>
                     <div className="contcatinner2-scetio-area section-padding5">
                         <div className="container">
@@ -62,11 +62,11 @@ export default function Home() {
                                                                             <option value="1" data-display="Service Type">
                                                                                 Service Type
                                                                             </option>
-                                                                            <option value="">Belgium</option>
-                                                                            <option value="">Brezil</option>
-                                                                            <option value="">Argentina</option>
-                                                                            <option value="">Bangladesh</option>
-                                                                            <option value="">Germany</option>
+                                                                            <option value="">Dynamics 365 Finance and Operations </option>
+                                                                            <option value="">Microsoft 365 </option>
+                                                                            <option value="">Technical Support/ Managed Services</option>
+                                                                            <option value="">Dynamics 365 Customer Relationship Management /Power Platform </option>
+                                                                            <option value="">Dynamics 365 Business Central </option>
                                                                         </select>
                                                                     </div>
                                                                 </div>
@@ -99,8 +99,8 @@ export default function Home() {
                                                         <div className="contact-location">
                                                             <h1 className="font-20 font-lora lineh-24 color-29 weight-600 margin-b">Contact us</h1>
                                                             <p className="font-ks font-16 lineh-26 color-30 weight-500 ">
-                                                                8708 Technology Forest Pl Suite 125 -G, The
-                                                                <br /> Woodlands, TX 77381
+                                                               Srifinity technology
+                                                                <br /> Pepsicola kathmandu
                                                             </p>
                                                         </div>
                                                     </div>
@@ -114,7 +114,7 @@ export default function Home() {
                                                             <h1 className="font-20 font-lora lineh-24 color weight-600 margin-b">Call or text</h1>
                                                             <p className="font-ks font-16 lineh-26 color weight-400 ">
                                                                 <a href="tel:123-456-7890" className="color">
-                                                                    123-456-7890
+                                                                9863688874
                                                                 </a>
                                                             </p>
                                                         </div>
@@ -129,7 +129,7 @@ export default function Home() {
                                                             <h1 className="font-20 font-lora lineh-24 color-29 weight-600 margin-b">Email us today</h1>
                                                             <p className="font-ks font-16 lineh-26 color-30 weight-400 ">
                                                                 <a href="mailto:info@taxvice.com" className="color-17">
-                                                                    info@taxvice.com
+                                                                    admin@srifinity.com
                                                                 </a>
                                                             </p>
                                                         </div>
@@ -145,7 +145,15 @@ export default function Home() {
                                     <div className="map-section-area">
                                         <div className="mapouter">
                                             <div className="gmap_canvas">
-                                                <iframe className="gmap_iframe" src="https://maps.google.com/maps?width=1598&amp;height=673&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                            <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.774072305054!2d85.3653379745759!3d27.693376876190577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b003d1212e9%3A0xee88f879272aad16!2sSrifinity%20Tech%20Private%20Limited!5e0!3m2!1sen!2snp!4v1712038635092!5m2!1sen!2snp"
+      width="1500"
+      height="800"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
                                             </div>
                                         </div>
                                     </div>
@@ -155,9 +163,11 @@ export default function Home() {
                     </div>
                     {/*===== CONTACT  END=======*/}
                     {/*===== FAQ STARTS=======*/}
-                    <div className="faq-section-area section-padding5">
+                    <div className="faq-section-area ">
                         <img src="/assets/images/elementor/elementor23.png" alt="" className="elementor24" />
-                        <div className="container">
+
+
+                        {/* <div className="container">
                             <div className="row">
                                 <div className="col-lg-7 m-auto">
                                     <div className="faq-textarea margin-b60">
@@ -279,12 +289,14 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+
+
                         <img src="/assets/images/elementor/elementor23.png" alt="" className="elementor25" />
                     </div>
                     {/*===== FAQ END=======*/}
                     {/*===== CTA STARST=======*/}
-                    <div className="cta5-section-area section-padding4">
+                    {/* <div className="cta5-section-area section-padding4">
                         <img src="/assets/images/elementor/elementor72.png" alt="" className="elementors72" />
                         <div className="container">
                             <div className="row align-items-center">
@@ -314,7 +326,7 @@ export default function Home() {
                             </div>
                         </div>
                         <img src="/assets/images/elementor/elementor72.png" alt="" className="elementors73" />
-                    </div>
+                    </div> */}
                 </div>
             </Layout>
         </>

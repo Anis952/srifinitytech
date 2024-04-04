@@ -10,7 +10,7 @@ export default function Home() {
 
     const handleClick = (key) => {
         if (isActive.key === key) {
-            setIsActive({
+            setIsActive({ 
                 status: false,
             })
         } else {
@@ -23,8 +23,8 @@ export default function Home() {
     return (
         <>
 
-            <Layout headerStyle={13} footerStyle={1} breadcrumbTitle="Business Growth Plan">
-                <div>
+            <Layout headerStyle={13} footerStyle={60 } breadcrumbTitle="Dynamics 365 Finance and Operations">
+                <div> 
                     <div className="serviceleft-section-area section-padding5">
                         <div className="container">
                             <div className="row">
@@ -32,10 +32,11 @@ export default function Home() {
                                 <div className="col-lg-10">
                                     <div className="serviceauthior-area p-0">
                                         <img src="/assets/images/sectionimg/servicedeailsimg1.png" alt="" />
-                                        <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">Business Growth
-                                            Plan</h1>
+                                        <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">Dynamics 365 Finance and Operations</h1>
+
+
                                         <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b20">Microsoft Dynamics CRM and Power Platform Implementation:
-In the context of Nepal's evolving business landscape, harnessing the power of Microsoft Dynamics CRM and the Power Platform is crucial for organizations aiming to streamline their operations and enhance customer relationships. Our team specializes in implementing these solutions tailored to the unique needs of Nepalese businesses. By leveraging Dynamics CRM, we help companies in Nepal centralize customer data, automate processes, and drive sales effectiveness. Additionally, with the Power Platform, we empower organizations to create custom applications and automate workflows, enabling them to achieve greater efficiency and agility in their operations.</p>
+                                          In the context of Nepal's evolving business landscape, harnessing the power of Microsoft Dynamics CRM and the Power Platform is crucial for organizations aiming to streamline their operations and enhance customer relationships. Our team specializes in implementing these solutions tailored to the unique needs of Nepalese businesses. By leveraging Dynamics CRM, we help companies in Nepal centralize customer data, automate processes, and drive sales effectiveness. Additionally, with the Power Platform, we empower organizations to create custom applications and automate workflows, enabling them to achieve greater efficiency and agility in their operations.</p>
                                         <p className="font-ks font-16 lineh-26 weight-500 color-30">Our mission is to be more than just
                                             consultants we aim to be your strategic partners, working collaboratively to transform your
                                             vision into reality. By combining industry insights with tailored solutions, we help you
@@ -44,7 +45,7 @@ In the context of Nepal's evolving business landscape, harnessing the power of M
                                         <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20">Unlock the potential of
                                             your business</h1>
                                         <p className="font-ks font-16 lineh-26 weight-500 color-30">Discover how Consalt Consulting Firm's
-                                            Name] can be your guiding force in navigating the to have challenges of today's competitive
+                                            Name can be your guiding force in navigating the to have challenges of today's competitive
                                             landscape. Explore our range of specialized consulting services designed to revolutionize
                                             the way you do business.</p>
                                         <div className="row">

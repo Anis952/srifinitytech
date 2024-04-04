@@ -26,16 +26,14 @@ export default function Blog6() {
                                     <div className="blog2-ahtuor2 blog-2ahthor blog5auhto6 blog6scetio7">
                                         <div className="blog-date-list margin-b">
                                             <img src="/assets/images/icons/daterane.png" alt="" />
-                                            <Link href="#" className="font-16 lineh-16 font-nunito weight-600 colorwel ts">14 May
-                                                2023</Link>
+                                            <Link href="#" className="font-16 lineh-16 font-nunito weight-600 colorwel ts">1 April
+                                                2024</Link>
                                         </div>
                                         <Link href="/blogmiddle" className="ts">
-                                            <h1 className="font-20 font-lora colorwel lineh-20 weight-600 margin-b ts">Your Journey
-                                                with Premier Financial Consulting</h1>
+                                            <h1 className="font-20 font-lora colorwel lineh-20 weight-600 margin-b ts">Empowering Your Business with the Power Platform
+</h1>
                                         </Link>
-                                        <p className="font-16 font-nunito lineh-26 weight-400 colorwel ts ">Real estate deals
-                                            involve complex legalities. We offer insights into property transactions, leasing
-                                            agreements, zoning laws.</p>
+                                        <p className="font-16 font-nunito lineh-26 weight-400 colorwel ts ">In today's hyper-competitive business landscape, organizations are constantly seeking ways to drive innovation,enhance productivity, and deliver superior experiences to customers and employees.Amidst this pursuit of excellence, the Microsoft Power Platform has emerged as a transformative solution, empowering businesses to unlock their full potential through low-code and no-code development tools.</p>
                                         <Link href="/blogmiddle" className="font-16 font-nunito weight-700 colorwel margin-t28 lineh-26 d-inline-block learn-more learn-more1 ts">Learn
                                             More <span><i className="fa-solid fa-arrow-right-long" /></span></Link>
                                     </div>
@@ -51,17 +49,14 @@ export default function Blog6() {
                                     <div className="blog2-ahtuor2 blog-2ahthor blog5auhto6 blog6scetio7">
                                         <div className="blog-date-list margin-b">
                                             <img src="/assets/images/icons/daterane.png" alt="" />
-                                            <Link href="#" className="font-16 lineh-16 font-nunito weight-600 colorwel ts">14 May
-                                                2023</Link>
+                                            <Link href="/blogmiddle2" className="font-16 lineh-16 font-nunito weight-600 colorwel ts">1 April
+                                                2024</Link>
                                         </div>
-                                        <Link href="/blogmiddle" className="ts">
-                                            <h1 className="font-20 font-lora colorwel lineh-20 weight-600 margin-b ts">Partnering
-                                                for Your Financial Success</h1>
+                                        <Link href="/blogmiddle2" className="ts">
+                                            <h1 className="font-20 font-lora colorwel lineh-20 weight-600 margin-b ts">Exploring the Power Platform's Impact Across Industries</h1>
                                         </Link>
-                                        <p className="font-16 font-nunito lineh-26 weight-400 colorwel ts ">Where we provide expert
-                                            insights and guidance to help you navigate the intricate world of law and empower
-                                            you to make.</p>
-                                        <Link href="/blogmiddle" className="font-16 font-nunito weight-700 colorwel margin-t28 lineh-26 d-inline-block learn-more learn-more1 ts">Learn
+                                        <p className="font-16 font-nunito lineh-26 weight-400 colorwel ts ">In today's digital age, organizations across industries are harnessing the power of technology to drive innovation, streamline operations, and enhance productivity.</p>
+                                        <Link href="/blogmiddle2" className="font-16 font-nunito weight-700 colorwel margin-t28 lineh-26 d-inline-block learn-more learn-more1 ts">Learn
                                             More <span><i className="fa-solid fa-arrow-right-long" /></span></Link>
                                     </div>
                                 </div>

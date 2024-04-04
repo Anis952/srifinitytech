@@ -15,7 +15,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu }) {
                                     </div>
                                     <div className="main-menu-ex homepage5 mainmenuex">
                                         <ul>
-                                            <li className="mega-dropdawn"><Link href="#">Home fghj<i className="fa-solid fa-angle-down" /></Link>
+                                            <li className="mega-dropdawn"><Link href="#">Home <i className="fa-solid fa-angle-down" /></Link>
                                                 <ul className="mega-dropdawn-ul backgroundnone">
                                                     <div className="mega-menu-all">
                                                         <div className="row">

@@ -32,7 +32,7 @@ export default function Home() {
                                     <div className="serviceour-area">
                                         <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b24">Our Services</h1>
                                         <div className="singlepalnning-area margin-b20">
-                                            <Link href="#" className="font-18 font-ks lineh-18 weight-600 color-29 ts">Business Growth Plan</Link>
+                                            <Link href="#" className="font-18 font-ks lineh-18 weight-600 color-29 ts">qwed Growth Plan</Link>
                                             <span><i className="fa-solid fa-angle-right ts" /></span>
                                         </div>
                                         <div className="singlepalnning-area margin-b20">

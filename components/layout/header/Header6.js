@@ -238,7 +238,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 </ul>
                                             </li>
                                             <li><Link href="casemiddle" className="font-nunito font-16 weight-600 color-ni">Case Studies
-                                                <span><i className="fa-solid fa-angle-down" /></span></Link>
+                                                <span><i className="fa-solid " /></span></Link>
                                                 {/* <ul>
                                                     <li><Link href="/casestudy1" className="font-nunito font-16 weight-500 color">Case Study</Link></li>
                                                     <li><Link href="/caseleft" className="font-nunito font-16 weight-500 color">Case Details left</Link>
@@ -248,18 +248,18 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu }) {
                                                     <li><Link href="/casemiddle" className="font-nunito font-16 weight-500 color">Single Case</Link></li>
                                                 </ul> */}
                                             </li>
-                                            {/* <li><Link href="#" className="font-nunito font-16 weight-600 color-ni"> Our Blogs <span><i className="fa-solid fa-angle-down" /></span></Link>
+                                            <li><Link href="#" className="font-nunito font-16 weight-600 color-ni"> Our Blogs <span><i className="fa-solid fa-angle-down" /></span></Link>
                                                 <ul>
                                                     <li><Link href="/blog2" className="font-nunito font-16 weight-500 color">Our
                                                         Blog <i className="fa-solid fa-angle-right" /></Link>
-                                                        <ul>
+                                                        {/* <ul>
                                                             <li><Link href="/blog2" className="font-nunito font-16 weight-500 color">Blog One</Link>
                                                             </li>
                                                             <li><Link href="/blog3" className="font-nunito font-16 weight-500 color">Blog Two</Link>
                                                             </li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </li>
-                                                    <li><Link href="/blogleft" className="font-nunito font-16 weight-500 color">Blog Details <i className="fa-solid fa-angle-right" /></Link>
+                                                    {/* <li><Link href="/blogleft" className="font-nunito font-16 weight-500 color">Blog Details <i className="fa-solid fa-angle-right" /></Link>
                                                         <ul>
                                                             <li><Link href="/blogleft" className="font-nunito font-16 weight-500 color">Blog Details
                                                                 Left</Link></li>
@@ -268,20 +268,21 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu }) {
                                                             <li><Link href="/blogmiddle" className="font-nunito font-16 weight-500 color">Single Blog</Link>
                                                             </li>
                                                         </ul>
-                                                    </li>
+                                                    </li> */}
                                                 </ul>
                                             </li>
-                                            <li><Link href="#" className="font-nunito font-16 weight-600 color-ni">Pages <span><i className="fa-solid fa-angle-down" /></span></Link>
+                                            <li><Link href="#" className="font-nunito font-16 weight-600 color-ni">Our Team <span><i className="fa-solid fa-angle-down" /></span></Link>
                                                 <ul>
-                                                    <li><Link href="#" className="font-nunito font-16 weight-600 color-ni">Testimonials</Link>
-                                                    </li>
+                                                    {/* <li><Link href="#" className="font-nunito font-16 weight-600 color-ni">Testimonials</Link>
+                                                    </li> */}
                                                     <li><Link href="/team" className="font-nunito font-16 weight-500 color">Our
                                                         Team</Link></li>
-                                                    <li><Link href="/team-details" className="font-nunito font-16 weight-500 color">Single Team</Link></li>
+                                                    {/* <li><Link href="/team-details" className="font-nunito font-16 weight-500 color">Single Team</Link></li>
                                                     <li><Link href="/contact1" className="font-nunito font-16 weight-500 color">Contact 1</Link></li>
-                                                    <li><Link href="/contact2" className="font-nunito font-16 weight-500 color">Contact 2</Link></li>
+                                                    <li><Link href="/contact2" className="font-nunito font-16 weight-500 color">Contact 2</Link></li> */}
                                                 </ul>
-                                            </li> */}
+                                            </li>
+
                                         </ul>
                                     </div>
                                     <div className="contact-3 d-lg-block d-none">

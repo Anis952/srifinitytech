@@ -34,11 +34,11 @@ export default function Footer6() {
                                                     Blog</Link></li>
                                                 <li><Link href="/about" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">About
                                                     Us</Link></li>
-                                                <li><Link href="/servicev1" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">
-                                                    Practice Areas</Link></li>
+                                                {/* <li><Link href="/servicev1" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">
+                                                    Practice Areas</Link></li> */}
                                                 <li><Link href="/casestudy1" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">Case
                                                     Studies</Link></li>
-                                                <li><Link href="/testimonials" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">Testimonials</Link>
+                                                <li><Link href="/PrivacyPolicy" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block"> Privacy Policy</Link>
                                                 </li>
                                                 <li><Link href="/contact1" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">Contact
                                                     Us</Link></li>
