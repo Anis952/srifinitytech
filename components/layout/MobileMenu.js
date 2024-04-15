@@ -20,7 +20,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
     }
     return (
         <>
-            <div className="mobile-header mobile-header-4 d-block d-lg-none homepagesmall">
+            <div className="mobile-header mobile-header-4 d-block d-lg-none ">
                 <div className="container-fluid">
                     <div className="col-12">
                         <div className="mobile-header-elements">
@@ -28,6 +28,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                 <Link href="/index1"><img src="/assets/images/logo/Srifinitynewlogo.png" alt="" /></Link>
                             </div>
                             <div className="mobile-nav-icon dots-menu" onClick={handleMobileMenu}>
+                                
                                 <i className="fa-solid fa-bars" />
                             </div>
                         </div>
@@ -37,7 +38,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
             <div className={`mobile-sidebar ${isMobileMenu ? "mobile-menu-active" : ""}`}>
                 <div className="logoicons-area">
                     <div className="logos">
-                        <img src="/assets/images/logo/logo7.png" alt="" />
+                        <img src="/assets/images/logo/Srifinitynewlogo.png" alt="" />
                     </div>
                     <div className="menu-close" onClick={handleMobileMenu}>
                         <i className="fa-solid fa-xmark" />
@@ -46,28 +47,9 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                 <div className="mobile-nav">
                     <ul className="mobile-nav-list">
                         <li className="has-sub hash-has-sub">
-                            <span className={isActive.key == 1 ? "submenu-button submenu-opened" : "submenu-button"} onClick={() => handleToggle(1)}><em /></span>
+                            <span className={isActive.key == 1 ? " submenu-opened" : "submenu-button"} onClick={() => handleToggle(1)}><em /></span>
                             <Link href="#" className="font-ks font-16 weight-500 color">Home </Link>
-                            <ul className="sub-menu" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
-                                <li><Link href="/index1" className="font-ks font-16 weight-500 color">Law Consulting 01</Link></li>
-                                <li><Link href="/index7" className="font-ks font-16 weight-500 color">Law Consulting 02</Link></li>
-                                <li><Link href="/index3" className="font-ks font-16 weight-500 color">Tax Consulting 01</Link></li>
-                                <li><Link href="/index8" className="font-ks font-16 weight-500 color">Tax Consulting 02</Link></li>
-                                <li><Link href="/index2" className="font-ks font-16 weight-500 color">Business Consulting 01</Link>
-                                </li>
-                                <li><Link href="/index5" className="font-ks font-16 weight-500 color">Business Consulting 02</Link>
-                                </li>
-                                <li><Link href="/index4" className="font-ks font-16 weight-500 color">Finance Consulting 01</Link>
-                                </li>
-                                <li><Link href="/index6" className="font-ks font-16 weight-500 color">Finance Consulting 02</Link>
-                                </li>
-                                <li><Link href="/index9" className="font-ks font-16 weight-500 color">Insurance Consulting 01</Link>
-                                </li>
-                                <li><Link href="/index10" className="font-ks font-16 weight-500 color">Insurance Consulting 02</Link>
-                                </li>
-                                <li><Link href="/index11" className="font-ks font-16 weight-500 color">Visa Consulting 01</Link></li>
-                                <li><Link href="/index12" className="font-ks font-16 weight-500 color">Visa Consulting 02</Link></li>
-                            </ul>
+                           
                         </li>
                         <li className="has-sub hash-has-sub">
                             <Link href="/about" className="font-ks font-18 weight-600 color">About</Link></li>
@@ -75,48 +57,40 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                             <span className={isActive.key == 2 ? "submenu-button submenu-opened" : "submenu-button"} onClick={() => handleToggle(2)}><em /></span>
                             <Link href="#" className="font-ks font-16 weight-500 color">Our Services</Link>
                             <ul className="sub-menu" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                <li><Link href="/servicev1" className="font-ks font-16 weight-500 color-1">Servics V1</Link></li>
-                                <li><Link href="/servicev2" className="font-ks font-16 weight-500 color">Servics V2</Link></li>
-                                <li><Link href="/serviceleft" className="font-ks font-16 weight-500 color"> Service Details
-                                    Left</Link></li>
-                                <li><Link href="/serviceright" className="font-ks font-16 weight-500 color">Service Details
-                                    Right</Link></li>
-                                <li><Link href="/servicemiddle" className="font-ks font-16 weight-500 color"> Single Service</Link>
-                                </li>
+                                <li><Link href="/servicev1" className="font-ks font-16 weight-500 color-1">Our Service</Link></li>
+                                <li><Link href="/servicev2" className="font-ks font-16 weight-500 color">Our product</Link></li>
+                                {/* <li><Link href="/serviceleft" className="font-ks font-16 weight-500 color"> Service Details
+                                    Left</Link></li> */}
+                                {/* <li><Link href="/serviceright" className="font-ks font-16 weight-500 color">Service Details
+                                    Right</Link></li> */}
+                                {/* <li><Link href="/servicemiddle" className="font-ks font-16 weight-500 color"> Single Service</Link>
+                                </li> */}
                             </ul>
                         </li>
                         <li className="has-sub hash-has-sub">
                             <span className={isActive.key == 3 ? "submenu-button submenu-opened" : "submenu-button"} onClick={() => handleToggle(3)}><em /></span>
                             <Link href="/testimonials" className="font-ks font-16 weight-500 color">Case Studies </Link>
                             <ul className="sub-menu" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                                <li><Link href="/casestudy1" className="font-ks font-16 weight-500 color-1">Case Study</Link></li>
-                                <li><Link href="/caseleft" className="font-ks font-16 weight-500 color">Case Details Left</Link></li>
-                                <li><Link href="/caseright" className="font-ks font-16 weight-500 color">Case Details Right</Link>
-                                </li>
-                                <li><Link href="/casemiddle" className="font-ks font-16 weight-500 color">Case Single </Link></li>
+                              
+                                <li><Link href="/casemiddle" className="font-ks font-16 weight-500 color">Case Study </Link></li>
                             </ul>
                         </li>
                         <li className="has-sub hash-has-sub">
                             <span className={isActive.key == 4 ? "submenu-button submenu-opened" : "submenu-button"} onClick={() => handleToggle(4)}><em /></span>
                             <Link href="#" className="font-ks font-16 weight-500 color"> Our Blog</Link>
                             <ul className="sub-menu" style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                                <li><Link href="/blog2" className="font-ks font-16 weight-500 color-1">Blog One</Link></li>
-                                <li><Link href="/blog3" className="font-ks font-16 weight-500 color">Blog Two</Link></li>
-                                <li><Link href="/blogleft" className="font-ks font-16 weight-500 color">Blog Details Left</Link></li>
-                                <li><Link href="/blogright" className="font-ks font-16 weight-500 color">BLog Details Right</Link>
-                                </li>
-                                <li><Link href="/blogmiddle" className="font-ks font-16 weight-500 color"> Single Blog</Link></li>
+                                <li><Link href="/blog2" className="font-ks font-16 weight-500 color-1">Blog </Link></li>
+         
+                   
                             </ul>
                         </li>
                         <li className="has-sub hash-has-sub">
                             <span className={isActive.key == 5 ? "submenu-button submenu-opened" : "submenu-button"} onClick={() => handleToggle(5)}><em /></span>
-                            <Link href="#" className="font-ks font-16 weight-00 color">Pages</Link>
+                            <Link href="/team" className="font-ks font-16 weight-00 color">Our Teams</Link>
                             <ul className="sub-menu" style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                                <li><Link href="/testimonials" className="font-ks font-16 weight-500 color">Testimonials </Link></li>
+                            
                                 <li><Link href="/team" className="font-ks font-16 weight-500 color">Our Team</Link></li>
-                                <li><Link href="/team-details" className="font-ks font-16 weight-500 color">Single Team</Link></li>
-                                <li><Link href="/contact1" className="font-ks font-16 weight-500 color">Contact 1</Link></li>
-                                <li><Link href="/contact2" className="font-ks font-16 weight-500 color">Contact 2</Link></li>
+                                
                             </ul>
                         </li>
                     </ul>
@@ -130,7 +104,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                         <img src="/assets/images/icons/phone5.svg" alt="" />
                                     </div>
                                     <div className="contact-info-text">
-                                        <Link href="/tel:+3(924)4596512" className="font-ks font-16 lineh-26 weight-500 color-21">+3(924)4596512</Link>
+                                        <Link href="/tel:+3(924)4596512" className="font-ks font-16 lineh-26 weight-500 color-21">+977-9863688874</Link>
                                     </div>
                                 </div>
                                 <div className="contact-info-single">
@@ -138,7 +112,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                         <img src="/assets/images/icons/email4.svg" alt="" />
                                     </div>
                                     <div className="contact-info-text">
-                                        <Link href="/mailto:info@example.com" className="font-ks font-16 lineh-26 weight-500 color-21">info@example.com</Link>
+                                        <Link href="/mailto:info@example.com" className="font-ks font-16 lineh-26 weight-500 color-21">admin@srifinity.com</Link>
                                     </div>
                                 </div>
                                 <div className="single-footer single-footer-menu single-footer4">
@@ -148,8 +122,8 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                             <img src="/assets/images/icons/location2.png" alt="" />
                                         </div>
                                         <div className="contact-info-text">
-                                            <Link href="/mailto:info@example.com" className="font-ks font-16 lineh-26 weight-500 color-21">55 East Birchwood
-                                                Ave.Brooklyn, <br /> New York 11201,United States</Link>
+                                            <Link href="/mailto:info@example.com" className="font-ks font-16 lineh-26 weight-500 color-21">Srifinity technology
+                                             , <br />  Pepsicola kathmandu </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -158,19 +132,19 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                     <div className="social social4-menu social4">
                                         <ul>
                                             <li>
-                                                <Link data-bs-toggle="tooltip" title="Linked in" href="#"><svg className="svg-inline--fa fa-facebook" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg>
+                                                <Link data-bs-toggle="tooltip" title="Linked in" href="#"><svg className="svg-inline--fa fa-facebook" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="https://www.facebook.com/profile.php?id=61556303953641" viewBox="0 0 512 512" data-fa-i2svg>
                                                     <path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.8 90.69 226.4 209.3 245V327.7h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.3 482.4 504 379.8 504 256z">
                                                     </path>
                                                 </svg>{/* <i class="fa-brands fa-facebook"></i> Font Awesome fontawesome.com */}</Link>
                                             </li>
                                             <li>
-                                                <Link data-bs-toggle="tooltip" title="Facebook" href="#"><svg className="svg-inline--fa fa-linkedin-in" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg>
+                                                <Link data-bs-toggle="tooltip" title="Facebook" href="#"><svg className="svg-inline--fa fa-linkedin-in" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="https://www.linkedin.com/company/srifinity-tech/" viewBox="0 0 448 512" data-fa-i2svg>
                                                     <path fill="currentColor" d="M100.3 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.6 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.3 61.9 111.3 142.3V448z">
                                                     </path>
                                                 </svg>{/* <i class="fa-brands fa-linkedin-in"></i> Font Awesome fontawesome.com */}</Link>
                                             </li>
                                             <li>
-                                                <Link data-bs-toggle="tooltip" title="Instagram" href="#"><svg className="svg-inline--fa fa-youtube" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg>
+                                                <Link data-bs-toggle="tooltip" title="Instagram" href="#"><svg className="svg-inline--fa fa-youtube" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="https://www.youtube.com/@SrifinityTech" viewBox="0 0 576 512" data-fa-i2svg>
                                                     <path fill="currentColor" d="M549.7 124.1c-6.281-23.65-24.79-42.28-48.28-48.6C458.8 64 288 64 288 64S117.2 64 74.63 75.49c-23.5 6.322-42 24.95-48.28 48.6-11.41 42.87-11.41 132.3-11.41 132.3s0 89.44 11.41 132.3c6.281 23.65 24.79 41.5 48.28 47.82C117.2 448 288 448 288 448s170.8 0 213.4-11.49c23.5-6.321 42-24.17 48.28-47.82 11.41-42.87 11.41-132.3 11.41-132.3s0-89.44-11.41-132.3zm-317.5 213.5V175.2l142.7 81.21-142.7 81.2z">
                                                     </path>
                                                 </svg>{/* <i class="fa-brands fa-youtube"></i> Font Awesome fontawesome.com */}</Link>

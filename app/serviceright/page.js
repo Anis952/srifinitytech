@@ -31,7 +31,7 @@ export default function Home() {
                                 <div className="col-lg-8">
                                     <div className="serviceauthior-area p-0">
                                         <img src="/assets/images/sectionimg/servicedeailsimg1.png" alt="" />
-                                        <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">asdfg Growth
+                                        <h1 className="font-lora font-40 lineh-50 weight-600 color-29 margin-b20 margin-t28">Business Growth
                                             Plan</h1>
                                         <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b20">We are dedicated to providing
                                             top-notch consulting services that drive growth, innovation, and efficiency in your

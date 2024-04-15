@@ -36,11 +36,11 @@ export default function Footer6() {
                                                     Us</Link></li>
                                                 {/* <li><Link href="/servicev1" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">
                                                     Practice Areas</Link></li> */}
-                                                <li><Link href="/casestudy1" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">Case
+                                                <li><Link href="/casemiddle" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">Case
                                                     Studies</Link></li>
                                                 <li><Link href="/PrivacyPolicy" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block"> Privacy Policy</Link>
                                                 </li>
-                                                <li><Link href="/contact1" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">Contact
+                                                <li><Link href="/contact2" className="font-nunito font-16 lineh-16 color-nuni weight-600 margin-t d-inline-block">Contact
                                                     Us</Link></li>
                                             </ul>
                                         </div>

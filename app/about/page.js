@@ -87,12 +87,7 @@ export default function Home() {
                                         <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Our Team Provide Customer Centric Advice to companies in different sectors.</h1>
                                         <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">At Srifinity, our team is dedicated to offering customer-centric advice tailored to the unique needs of companies across various sectors. With a deep understanding of the diverse challenges businesses face, we prioritize putting the customer at the center of every decision and recommendation we make. By leveraging our expertise and industry knowledge, we help companies navigate complexities, identify opportunities, and implement strategies that drive meaningful growth and success. With a focus on building strong, long-lasting relationships, we are committed to delivering personalized guidance that empowers businesses to thrive in today's competitive landscape.</p>
                                         <p className="font-ks font-16 weight-500 lineh-26 color-30">Our team of seasoned legal professionals brings a wealth of experience across various practice areas. You can trust us to provide accurate, up-to-date, and effective legal advice.</p>
-                                        <Link href="/team" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
-                                            Meet Our Attorneys
-                                            <span>
-                                                <i className="fa-solid fa-arrow-right" />
-                                            </span>
-                                        </Link>
+                                        
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
@@ -277,7 +272,7 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="team-section-textarea text-center margin-b60">
-                                        <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Our Expert Attorneys</span>
+                                        {/* <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Our Expert Attorneys</span> */}
                                         <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20 clienth2">
                                         Meet our Expert Technical and<br />  functional consultants 
                                         </h1>

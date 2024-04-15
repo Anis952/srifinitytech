@@ -13,7 +13,7 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="team-section-textarea text-center margin-b60">
-                                        <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Our Expert Attorneys</span>
+                                        {/* <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Our Expert Attorneys</span> */}
                                         <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20 clienth2">
                                         Meet our Expert Technical and<br />  functional consultants 
                                         </h1>
@@ -24,7 +24,7 @@ export default function Home() {
                                 <div className="col-lg-3 margin-b30 col-md-6">
                                     <div className="project-item-two">
                                         <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/aashish baral.png" alt="" />
+                                            <img src="/assets/images/sectionimg/prabesh.png" alt="" />
                                         </div>
                                         <div className="project-content-two">
                                             <ul>
@@ -53,10 +53,10 @@ export default function Home() {
                                         <div className="team-pera text-center margin-t">
                                             <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
                                                 <Link href="/team" className="color-29">
-                                                    Ashish baral
+                                                    Prabesh Basnet
                                                 </Link>
                                             </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Microsoft Business Application Expert</p>
+                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Power Platform Developer</p>
                                         </div>
                                     </div>
                                 </div>
@@ -178,6 +178,50 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div className="col-lg-3 margin-b30 col-md-6">
+                                    <div className="project-item-two">
+                                        <div className="project-thumb-two">
+                                            <img src="/assets/images/sectionimg/aanish.png" alt="" />
+                                        </div>
+                                        <div className="project-content-two">
+                                            <ul>
+                                                <li>
+                                                    <Link href="#">
+                                                        <i className="fa-brands fa-x-twitter" />
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">
+                                                        <i className="fa-brands fa-facebook" />
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">
+                                                        <i className="fa-brands fa-instagram" />
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">
+                                                        <i className="fa-brands fa-linkedin" />
+                                                    </Link>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className="team-pera text-center margin-t">
+                                            <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
+                                                <Link href="/team" className="color-29">
+                                                Anish Thapa
+
+                                                </Link>
+                                            </h1>
+                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Frontend Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
                             </div>
                         </div>
                     </div>

@@ -415,7 +415,7 @@ Description:
 }
 
 .mobile-header.mobile-header.homepagesmall {
-    background: #000;
+    background: #e3e3e3;
     position: fixed;
 }
 .mobile-header.mobile-header.homepagesmall1 {
@@ -1596,11 +1596,11 @@ img.growth1 {
         }
 
 .mobile-header.mobile-header.homepagesmall {
-    background: #000;
+    background: #e3e3e3;
     position: fixed;
 }
 .mobile-header.mobile-header.homepagesmall1 {
-    background: #fff;
+    background: #181616;
     position: fixed;
 }
 .serviceauthior-area {
@@ -3201,7 +3201,7 @@ img.img-4 {
     line-height: 45px;
 }
 .mobile-header.mobile-header.homepagesmall {
-    background: #000;
+    background: white; 
     position: fixed;
 }
 .mobile-header.mobile-header.homepagesmall1 {
@@ -3491,7 +3491,7 @@ img.imagesgreen {
 }
 
 img.elementors12 {
-    z-index: -;
+    
 }
 
 .tax-consulttext1 {

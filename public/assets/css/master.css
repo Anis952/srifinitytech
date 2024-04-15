@@ -267,7 +267,7 @@ FOOTER AREA CSS
   overflow-y: scroll;
 }
 .main-menu-ex.homepage5 ul li a:hover {
-    color: #000;
+    color: #ada8a8;
 }
 .quick_contact_icon {
   position: absolute;
@@ -277,7 +277,7 @@ FOOTER AREA CSS
   height: 50px;
   text-align: center;
   line-height: 50px;
-  background: #fee6e5;
+  background: #5f5b58;
   border-radius: 50px;
   margin-top: -25px;
 }
@@ -313,7 +313,7 @@ FOOTER AREA CSS
   margin-right: -100px;
 }
 .mobile-nav-icon.dots-menu {
-  color: #fff;
+  color: black;
 }
 .mobilemenubtn {
   border: 1px solid #FFF;
@@ -751,6 +751,7 @@ a.menu-toggle.full span.bars {
   width: 30px;
   height: 30px;
   display: inline-flex;
+
 }
 .logoicons-area{
   display: flex;
