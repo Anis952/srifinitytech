@@ -29,7 +29,29 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
+
+                              <br></br>
+                                    <div className="blog2-author-area">
+                                        <div className="blog2-images">
+                                            <img src="/assets/images/sectionimg/blog2-img.png" alt="" />
+                                        </div>
+                                        <div className="blog-auhtor2-text blog2-author-poition ">
+                                            <div className="blog2-ahtuor2 blog-2ahthor bloinner2">
+                                                <div className="blog-date-list margin-b">
+                                                    <img src="/assets/images/icons/daterange1.png" alt="" />
+                                                    <Link href="#" className="font-16 lineh-16 font-ks weight-600 color">11 june 2024</Link>
+                                                </div>
+                                                <Link href="/blogmiddle4">
+                                                    <h1 className="font-20 font-lora color lineh-20 weight-600 margin-b">Enhancing Business Efficiency: The Power of Automation in Dynamics CRM </h1>
+                                                </Link>
+                                                <p className="font-16 font-ks lineh-26 weight-400 color">Automation in Dynamics CRM enables businesses to optimize operations, increase productivity, and deliver superior customer experiences. By automating repetitive tasks and processes, businesses can focus their time and resources on strategic initiatives, innovation, and value-added activities, ultimately driving business growth and success.   </p>
+                                                <Link href="/blogmiddle4" className="font-16 font-ks weight-700 color lineh-26 margin-t24 d-inline-block learn-more learn-more1">Learn
+                                                    More <span><i className="fa-solid fa-arrow-right-long" /></span></Link>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                
                                 <div className="col-lg-6">
                                     <div className="blog-auhtor2-text margin-b30 ">
                                         <div className="blog2-ahtuor2 blog2inner">
@@ -59,6 +81,42 @@ export default function Home() {
                                                 More <span><i className="fa-solid fa-arrow-right-long" /></span></Link>
                                         </div>
                                     </div>
+                                  <br></br>
+
+                                    <div className="blog-auhtor2-text ">
+                                        <div className="blog2-ahtuor2 blog2inner">
+                                            <div className="blog-date-list margin-b">
+                                                <img src="/assets/images/icons/daterane.png" alt="" />
+                                                <Link href="/blogmiddle5" className="font-16 lineh-16 font-outfit weight-500 color-17">11 June 2024</Link>
+                                            </div>
+                                            <Link href="/blogmiddle5">
+                                                <h1 className="font-20 font-outfit color-17 lineh-20 weight-600 margin-b14">Empowering Customer and Stakeholder Interactions with Dynamics CRM Portals   </h1>
+                                            </Link>
+                                            <p className="font-16 font-outfit lineh-26 weight-400 color-17 margin-b24">A customer portal or stakeholder management portal in Dynamics CRM serves as a dedicated online platform that allows customers or stakeholders to interact with your organization, access relevant information, and perform various tasks.   </p>
+                                            <Link href="/blogmiddle5" className="font-16 font-outfit weight-700 color-17 lineh-26 d-inline-block learn-more">Learn
+                                                More <span><i className="fa-solid fa-arrow-right-long" /></span></Link>
+                                        </div>
+                                    </div>
+                                    
+                                    <br></br>
+
+                                    <div className="blog-auhtor2-text ">
+                                        <div className="blog2-ahtuor2 blog2inner">
+                                            <div className="blog-date-list margin-b">
+                                                <img src="/assets/images/icons/daterane.png" alt="" />
+                                                <Link href="/blogmiddle3" className="font-16 lineh-16 font-outfit weight-500 color-17">11 June 2024</Link>
+                                            </div>
+                                            <Link href="/blogmiddle6">
+                                                <h1 className="font-20 font-outfit color-17 lineh-20 weight-600 margin-b14">Growing Business With Dynamics CRM </h1>
+                                            </Link>
+                                            <p className="font-16 font-outfit lineh-26 weight-400 color-17 margin-b24">Today’s Businesses are dependent on data. With data a business can do many things from creating leads to qualifying and making them a customer. Data Helps business in many ways, from planning to Decision Making. Data helps Businesses to know about their customers behaviors, Preferences and needs. Data helps Businesses to identify inefficiencies and areas of improvement.  </p>
+                                            <Link href="/blogmiddle6" className="font-16 font-outfit weight-700 color-17 lineh-26 d-inline-block learn-more">Learn
+                                                More <span><i className="fa-solid fa-arrow-right-long" /></span></Link>
+                                        </div>
+                                    </div>
+                                    
+
+
                                 </div>
                             </div>
                             {/* <div className="row align-items-center margin-t60">

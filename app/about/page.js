@@ -280,92 +280,11 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="row">
-                                {/* <div className="col-lg-3 margin-b30 col-md-6">
-                                    <div className="project-item-two">
-                                        <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/aashish baral.png" alt="" />
-                                        </div>
-                                        <div className="project-content-two">
-                                            <ul>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-x-twitter" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-facebook" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-instagram" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-linkedin" />
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div className="team-pera text-center margin-t">
-                                            <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
-                                                <Link href="/team" className="color-29">
-                                                    Ashish baral
-                                                </Link>
-                                            </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Microsoft Business Application Expert</p>
-                                        </div>
-                                        
-                                    </div>
-                                </div> */}
-  <div className="col-lg-3 margin-b30 col-md-6">
-                                    <div className="project-item-two">
-                                        <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/aanish.png" alt="" />
-                                        </div>
-                                        <div className="project-content-two">
-                                            <ul>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-x-twitter" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-facebook" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-instagram" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-linkedin" />
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="team-pera text-center margin-t">
-                                            <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
-                                                <Link href="/team" className="color-29">
-                                                Anish Thapa
-
-                                                </Link>
-                                            </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Frontend Developer</p>
-                                        </div>
-                                    </div>
-                                </div>
 
                                 <div className="col-lg-3 margin-b30 col-md-6">
                                     <div className="project-item-two">
                                         <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/ashish.png" alt="" />
+                                            <img src="/assets/images/sectionimg/prabesh.png" alt="" />
                                         </div>
                                         <div className="project-content-two">
                                             <ul>
@@ -394,8 +313,7 @@ export default function Home() {
                                         <div className="team-pera text-center margin-t">
                                             <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
                                                 <Link href="/team" className="color-29">
-                                                Ashish Shrestha
-
+                                                    Prabesh Basnet
                                                 </Link>
                                             </h1>
                                             <p className="font-16 lineh-16 weight-500 color-30 font-ks">Power Platform Developer</p>
@@ -526,7 +444,7 @@ export default function Home() {
                                 <div className="col-lg-3 margin-b30 col-md-6">
                                     <div className="project-item-two">
                                         <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/prabesh.png" alt="" />
+                                            <img src="/assets/images/sectionimg/aanish.png" alt="" />
                                         </div>
                                         <div className="project-content-two">
                                             <ul>
@@ -555,13 +473,58 @@ export default function Home() {
                                         <div className="team-pera text-center margin-t">
                                             <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
                                                 <Link href="/team" className="color-29">
-                                                    Prabesh Basnet
+                                                Anish Thapa
+
+                                                </Link>
+                                            </h1>
+                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Frontend Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-3 margin-b30 col-md-6">
+                                    <div className="project-item-two">
+                                        <div className="project-thumb-two">
+                                            <img src="/assets/images/sectionimg/ashish.png" alt="" />
+                                        </div>
+                                        <div className="project-content-two">
+                                            <ul>
+                                                <li>
+                                                    <Link href="#">
+                                                        <i className="fa-brands fa-x-twitter" />
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">
+                                                        <i className="fa-brands fa-facebook" />
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">
+                                                        <i className="fa-brands fa-instagram" />
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">
+                                                        <i className="fa-brands fa-linkedin" />
+                                                    </Link>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className="team-pera text-center margin-t">
+                                            <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
+                                                <Link href="/team" className="color-29">
+                                                Ashish Shrestha
+
                                                 </Link>
                                             </h1>
                                             <p className="font-16 lineh-16 weight-500 color-30 font-ks">Power Platform Developer</p>
                                         </div>
                                     </div>
                                 </div>
+
+
+
                             </div>
                         </div>
                     </div>
@@ -576,10 +539,10 @@ export default function Home() {
                                         <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get In Touch</h1>
                                         <p className="font-ks font-16 lineh-26 weight-500 color-21">Embark on a journey of digital transformation with Srifinity Tech. Contact us today to discover how our expertise and commitment to excellence can elevate your business to new heights.<br></br>
 
-Admin@srifinity.com, Avishek@srifinity.com
-+977-9767584593
-<br></br>
-Thank you for choosing Srifinity Tech – where innovation meets reliability for your business success!</p>
+                            Admin@srifinity.com, Avishek@srifinity.com
+                            +977-9767584593
+                            <br></br>
+                            Thank you for choosing Srifinity Tech – where innovation meets reliability for your business success!</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-2" />
